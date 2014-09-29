@@ -1,4 +1,3 @@
-===============================================
 QlikView Language Definition for Notepad++
 ===============================================
 
@@ -16,7 +15,7 @@ The syntax highlighting that is provided is limited to the capabilities of Notep
 
 If you find any keywords or functions missing then please let me know by reporting an issue and I'll add them to the next release. Support may also be added for subroutines within QlikView code libraries. If you'd like me to add support for your library, again please contact me.
 
-===============================================
+
 Installation
 ===============================================
 Here are the steps to get it installed and working yourself:
@@ -31,7 +30,7 @@ Here are the steps to get it installed and working yourself:
     8) Navigate to the folder where you saved the XML files and select the "qlikview-lang-def.xml" file before clicking "OK".
     9) Hide the language panel by again selecting Language -> Define your language... on the menu. 
 
-===============================================
+
 Upgrade
 ===============================================
 If you already have a previous version of the QlikView language definition installed you will need to follow these steps to remove it and install the latest version:
@@ -48,7 +47,7 @@ If you already have a previous version of the QlikView language definition insta
     10) Navigate to the folder where you saved the XML files and select the "qlikview-lang-def.xml" file before clicking "OK".
     11) Hide the language panel by again selecting Language -> Define your language... on the menu.
 
-===============================================
+
 How To Use
 ===============================================
 If you open a .qvs file, Notepad++ will automatically identify it as a QlikView script file and apply the language definition for you. If you are creating a new file or using a different file extension then you'll need to change the language using the menu Language -> QlikView.
@@ -61,7 +60,7 @@ To enable auto-completion, select Settings -> Preferences... from the menu bar. 
 
 The options under Auto-Insert are optional and enable auto insertion of closing brackets and quotes are automatically entered when an opening bracket or quote is typed.
 
-===============================================
+
 Disclaimer
 ===============================================
 This language definition is provided free of charge, as is, with no warranties or guarantees. Neither Datoniq Limited or QlikViewAddict.com (including any of it's contributors) accept any liability for problems or loss resulting from it's use. 
