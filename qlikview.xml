@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+	<AutoComplete language="QlikView">
+		<KeyWord name="acos" func="yes"><Overload retVal="NUM" descr="Arcus cosine of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="ADD" />
+		<KeyWord name="addMonths" func="yes"><Overload retVal="DATE" descr="Returns the date occurring n months after startdate or, if n is negative, the date occurring n months before startdate"><Param name="startdate" /><Param name="n [ , 0|1]" /></Overload></KeyWord>
+		<KeyWord name="addYears" func="yes"><Overload retVal="DATE" descr="Returns the date occurring n years after startdate or, if n is negative, the date occurring n years before startdate"><Param name="startdate" /><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="age" func="yes"><Overload retVal="INT" descr="Returns the age at the time of timestamp (in completed years) of somebody born on date_of_birth"><Param name="timestamp" /><Param name="date_of_birth" /></Overload></KeyWord>
+		<KeyWord name="ALIAS" />
+		<KeyWord name="alt" func="yes"><Overload retVal="NUM" descr="Returns the first of the parameters that has a valid number representation. If none is found the else will be returned"><Param name="case1 [, case2, case3, … ] " /><Param name="else" /></Overload></KeyWord>
+		<KeyWord name="AND" />
+		<KeyWord name="applyCodePage" func="yes"><Overload retVal="STRING" descr="Applies a different codepage to the field or text stated in the expression"><Param name="expression" /><Param name="codepage" /></Overload></KeyWord>
+		<KeyWord name="applyMap" func="yes"><Overload retVal="DUAL VAL" descr="Used for mapping any expression to a previously loaded mapping table"><Param name="'mapname'" /><Param name="expr [ , defaultexpr ]" /></Overload></KeyWord>
+		<KeyWord name="argb" func="yes"><Overload retVal="DUAL VAL" descr="Returns the color representation of a color defined by the red component e1, the green component e2 and the blue component e3 with an alpha factor (opacity) of alpha"><Param name="alpha" /><Param name="e1" /><Param name="e2" /><Param name="e3" /></Overload></KeyWord>
+		<KeyWord name="AS" />
+		<KeyWord name="asin" func="yes"><Overload retVal="NUM" descr="Arcus sine of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="atan" func="yes"><Overload retVal="NUM" descr="Arcus tangent of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="atan2" func="yes"><Overload retVal="NUM" descr="Two-dimensional generalization of the arcus tangent function. Returns the angle between the origin and the point represented by the coordinates x and y"><Param name="y" /><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="attribute" func="yes"><Overload retVal="NUM|STRING" descr="Returns the value of the meta tags of different file formats, e.g. MP3, WMA, WMV and JPG files, as text"><Param name="filename" /><Param name="attributename" /></Overload></KeyWord>
+		<KeyWord name="author" func="yes"><Overload retVal="STRING" descr="Returns the author of the current document"></Overload></KeyWord>
+		<KeyWord name="AUTOGENERATE" />
+		<KeyWord name="autonumber" func="yes"><Overload retVal="INT" descr="Returns a unique integer value for each distinct evaluated value of expression encountered during the script execution"><Param name="expression [, AutoID ]" /></Overload></KeyWord>
+		<KeyWord name="autonumberhash128" func="yes"><Overload retVal="INT" descr="Calculates a 128-bit hash of the combined input expression values and the returns a unique integer value for each distinct hash value encountered during the script execution"><Param name="expression {, expression }" /></Overload></KeyWord>
+		<KeyWord name="autonumberhash256" func="yes"><Overload retVal="INT" descr="Calculates a 256-bit hash of the combined input expression values and the returns a unique integer value for each distinct hash value encountered during the script execution"><Param name="expression {, expression }" /></Overload></KeyWord>
+		<KeyWord name="avg" func="yes"><Overload retVal="NUM" descr="Returns the average of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="BINARY" />
+		<KeyWord name="bitcount" func="yes"><Overload retVal="INT" descr="Returns the number of set bits in i. Where i is interpreted as a signed 64-bit integer, though only the first 48 bits are significant"><Param name="[BITNOT] i" /></Overload></KeyWord>
+		<KeyWord name="black" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for black (RGB 0,0,0)."><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="blackandschole" func="yes"><Overload retVal="NUM" descr="Calculates the theoretical value of an option returning the value according to the Black and Schole unmodified formula (European style options)"><Param name="strike " /><Param name="time_left" /><Param name="underlying_price" /><Param name="vol" /><Param name="risk_free_rate" /><Param name="type" /></Overload></KeyWord>
+		<KeyWord name="blue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for blue (RGB 0,0,128)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="brown" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for brown (RGB 128,128,0)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="BUFFER" />
+		<KeyWord name="BUNDLE INFO LOAD" />
+		<KeyWord name="BUNDLE INFO SQL" />
+		<KeyWord name="BUNDLE LOAD" />
+		<KeyWord name="BUNDLE SQL" />
+		<KeyWord name="CALL" />
+		<KeyWord name="capitalize" func="yes"><Overload retVal="STRING" descr="Returns the string s with all words capitalized"><Param name="s" /></Overload></KeyWord>
+		<KeyWord name="ceil" func="yes"><Overload retVal="NUM" descr="Rounding of x upwards to the nearest multiple of base with an offset of offset"><Param name="x [ , base [ , offset ]]" /></Overload></KeyWord>
+		<KeyWord name="chi2test_chi2" func="yes"><Overload retVal="NUM" descr="Returns the aggregated chi2-test value for one or two series of values iterated over a number of records as defined by a group by clause"><Param name="col" /><Param name="row" /><Param name="observed_value [, expected_value ]" /></Overload></KeyWord>
+		<KeyWord name="chi2test_df" func="yes"><Overload retVal="NUM" descr="Returns the aggregated chi2-test df value (degrees of freedom) for one or two series of values iterated over a number of records as defined by a group by clause"><Param name="col" /><Param name="row" /><Param name="observed_value [, expected_value ]" /></Overload></KeyWord>
+		<KeyWord name="chi2test_p" func="yes"><Overload retVal="NUM" descr="Returns the aggregated chi2-test p value (significance) for one or two series of values iterated over a number of records as defined by a group by clause"><Param name="col" /><Param name="row" /><Param name="observed_value [, expected_value ]" /></Overload></KeyWord>
+		<KeyWord name="chidist" func="yes"><Overload retVal="NUM" descr="Returns the one-tailed probability of the chi2 distribution"><Param name="value" /><Param name="degrees_freedom" /></Overload></KeyWord>
+		<KeyWord name="chiinv" func="yes"><Overload retVal="NUM" descr="Returns the inverse of the one-tailed probability of the chi2 distribution"><Param name="prob" /><Param name="degrees_freedom" /></Overload></KeyWord>
+		<KeyWord name="chr" func="yes"><Overload retVal="STRING" descr="The character corresponding to number n in ASCII (1-127), ANSI (128-255) or Unicode (256 and above)"><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="class" func="yes"><Overload retVal="DUAL VAL" descr="Creates a classification of expressions. The bin width is determined by the number set as interval"><Param name="expression" /><Param name="interval [, label [, offset ]]" /></Overload></KeyWord>
+		<KeyWord name="ClientPlatform" func="yes"><Overload retVal="STRING" descr="Returns the name of the platform the client is using"></Overload></KeyWord>
+		<KeyWord name="color" func="yes"><Overload retVal="DUAL VAL" descr="This function returns the color representation of color number n in the relevant chart palette"><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="colormaphue" func="yes" />
+		<KeyWord name="colormapjet" func="yes" />
+		<KeyWord name="colormix1" func="yes"><Overload retVal="DUAL VAL" descr="Returns an RGB color representation from a two color gradient, based on a value between 0 and 1"><Param name="Value" /><Param name="ColorZero" /><Param name="ColorOne" /></Overload></KeyWord>
+		<KeyWord name="colormix2" func="yes"><Overload retVal="DUAL VAL" descr="Returns an RGB color representation from a two color gradient with the possibility to specify an intermediate color for the center position, based on a value between -1 and 1"><Param name="Value" /><Param name="ColorMinusOne" /><Param name="ColorOne [, ColorZero ]" /></Overload></KeyWord>
+		<KeyWord name="combin" func="yes"><Overload retVal="INT" descr="Returns the number of combinations of n2 items that can be picked from a group of n1 items. The order in which the items are selected is insignificant"><Param name="n1" /><Param name="n2" /></Overload></KeyWord>
+		<KeyWord name="COMMENT" />
+		<KeyWord name="ComputerName" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the computer as returned by the operating system"></Overload></KeyWord>
+		<KeyWord name="concat" func="yes"><Overload retVal="STRING" descr="Returns the aggregated string concatenation of all values of expression iterated over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression [, delimiter [, sort-weight ]]" /></Overload></KeyWord>
+		<KeyWord name="CONCATENATE" />
+		<KeyWord name="CONNECT" />
+		<KeyWord name="ConnectString" func="yes"><Overload retVal="STRING" descr="Returns the active connect string for ODBC or OLE DB connection"></Overload></KeyWord>
+		<KeyWord name="ConvertToLocalTime" func="yes"><Overload retVal="TIMESTAMP" descr="Converts a UTC or GMT timestamp to local time as a dual value"><Param name="timestamp [, place [, ignore_dst=false]]" /></Overload></KeyWord>
+		<KeyWord name="correl" func="yes"><Overload retVal="NUM" descr="Returns the aggregated correlation coefficient for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="x-expression" /><Param name="y-expression" /></Overload></KeyWord>
+		<KeyWord name="cos" func="yes"><Overload retVal="NUM" descr="Cosine of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="cosh" func="yes"><Overload retVal="NUM" descr="Cosine hyberbolicus of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="count" func="yes"><Overload retVal="INT" descr="Returns the count of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression|*" /></Overload></KeyWord>
+		<KeyWord name="CROSSTABLE" />
+		<KeyWord name="cyan" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for cyan (RGB 0,128,128)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="darkgray" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for dark gray (RGB 128,128,128)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="date" func="yes"><Overload retVal="DATE" descr="Formats the expression as a date according to the string given as format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="date#" func="yes"><Overload retVal="DATE" descr="Evaluates the expression as a date according to the string given as format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="day" func="yes"><Overload retVal="INT" descr="Returns an integer representing the day when date is interpreted as a date"><Param name="date" /></Overload></KeyWord>
+		<KeyWord name="dayend" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a value corresponding to a timestamp with the last millisecond of the day contained in timestamp"><Param name="timestamp [, shift = 0 [, dayoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="daylightsaving" func="yes"><Overload retVal="TIME" descr="Returns the current adjustment for daylight saving time, as defined in Windows"></Overload></KeyWord>
+		<KeyWord name="dayname" func="yes"><Overload retVal="DUAL VAL" descr="Returns a display value showing the date with an underlying numeric value corresponding to a timestamp with the first millisecond of the day containing timestamp"><Param name="timestamp [, shift = 0 [, dayoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="daynumberofquarter" func="yes"><Overload retVal="INT" descr="Returns the day number of the quarter according to a timestamp with the first millisecond of the first day of the quarter containing date"><Param name="date[,firstmonth]" /></Overload></KeyWord>
+		<KeyWord name="daynumberofyear" func="yes"><Overload retVal="INT" descr="Returns the day number of the year according to a timestamp with the first millisecond of the first day of the year containing date"><Param name="date[,firstmonth]" /></Overload></KeyWord>
+		<KeyWord name="daystart" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a value corresponding to a timestamp with the first millisecond of the day contained in timestamp"><Param name="timestamp [, shift = 0 [, dayoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="DIRECTORY" />
+		<KeyWord name="DISCONNECT" />
+		<KeyWord name="div" func="yes"><Overload retVal="INT" descr="Integer division. Both parameters are interpreted as real numbers, i.e. they do not have to be integers"><Param name="x1" /><Param name="x2" /></Overload></KeyWord>
+		<KeyWord name="DocumentName" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the current QlikView document, without path but with extension"></Overload></KeyWord>
+		<KeyWord name="DocumentPath" func="yes"><Overload retVal="STRING" descr="Returns a string containing the full path to the current QlikView document"></Overload></KeyWord>
+		<KeyWord name="DocumentTitle" func="yes"><Overload retVal="STRING" descr="Returns a string containing the title of the current QlikView document"></Overload></KeyWord>
+		<KeyWord name="DROP FIELD" />
+		<KeyWord name="DROP FIELDS" />
+		<KeyWord name="DROP TABLE" />
+		<KeyWord name="DROP TABLES" />
+		<KeyWord name="Dual" func="yes"><Overload retVal="DUAL VAL" descr="Forced association of an arbitrary string representation s with a given number representation x"><Param name="s" /><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="e" func="yes"><Overload retVal="NUM" descr="Base of the natural logarithms, e. The function returns 2.71828..."></Overload></KeyWord>
+		<KeyWord name="EACH" />
+		<KeyWord name="END SWITCH" />
+		<KeyWord name="evaluate" func="yes"><Overload retVal="DUAL VAL" descr="If the text string s can be evaluated as a valid QlikView expression, the evaluated result of the expression will be returned"><Param name="s" /></Overload></KeyWord>
+		<KeyWord name="even" func="yes"><Overload retVal="BOOL" descr="Returns true if n is an even integer, false if n is an odd integer and NULL if n is not an integer"><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="EXECUTE" />
+		<KeyWord name="exists" func="yes"><Overload retVal="BOOL" descr="Determines whether a specific field value exists in a specified field of the data loaded so far"><Param name="field" /><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="EXIT DO" />
+		<KeyWord name="EXIT FOR" />
+		<KeyWord name="EXIT SCRIPT" />
+		<KeyWord name="EXIT SUB" />
+		<KeyWord name="exp" func="yes"><Overload retVal="NUM" descr="Exponential function, with the base of the natural logarithm e as base"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="fabs" func="yes"><Overload retVal="NUM" descr="The absolute value of x. The result is a positive number"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="fact" func="yes"><Overload retVal="INT" descr="Returns the factorial of a positive integer n. If the number n is not an integer it will be truncated."><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="false" func="yes"><Overload retVal="DUAL VAL" descr="Returns a dual value with text value 'false' and numeric value 0, which can be used as logical false in expressions"></Overload></KeyWord>
+		<KeyWord name="FDIST" func="yes" />
+		<KeyWord name="FieldIndex" func="yes"><Overload retVal="INT" descr="Returns the position of the field value value found in the field fieldname (by load order)"><Param name="fieldname" /><Param name="value" /></Overload></KeyWord>
+		<KeyWord name="FieldName" func="yes"><Overload retVal="STRING" descr="Returns the name of the field with the specified number within a previously loaded table"><Param name="n" /><Param name="'tablename'" /></Overload></KeyWord>
+		<KeyWord name="FieldNumber" func="yes"><Overload retVal="INT" descr="Returns the number of a specified field within a previously loaded table"><Param name="'fieldname'" /><Param name="'tablename'" /></Overload></KeyWord>
+		<KeyWord name="FieldValue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the field value found in position n of the field fieldname (by load order)"><Param name="expression" /><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="FieldValueCount" func="yes"><Overload retVal="DUAL VAL" descr="Returns the number of distinct values in a field"><Param name="'fieldname'" /></Overload></KeyWord>
+		<KeyWord name="FileBaseName" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the table file currently being read, without path or extension"></Overload></KeyWord>
+		<KeyWord name="FileDir" func="yes"><Overload retVal="STRING" descr="Returns a string containing the path to the directory of the table file currently being read"></Overload></KeyWord>
+		<KeyWord name="FileExtension" func="yes"><Overload retVal="STRING" descr="Returns a string containing the extension of the table file currently being read"></Overload></KeyWord>
+		<KeyWord name="FileName" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the table file currently being read, without path but including the extension"></Overload></KeyWord>
+		<KeyWord name="FilePath" func="yes"><Overload retVal="STRING" descr="Returns a string containing the full path to the table file currently being read"></Overload></KeyWord>
+		<KeyWord name="FileSize" func="yes"><Overload retVal="NUM" descr="Returns an integer containing the size in bytes of the file filename or, if no filename is specified, of the table file currently being read"><Param name="[filename]" /></Overload></KeyWord>
+		<KeyWord name="FileTime" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a timestamp for the date and time of the last modification of the file filename. If no filename is specified, the function will refer to the currently read table file"><Param name="[filename]" /></Overload></KeyWord>
+		<KeyWord name="FindOneOf" func="yes"><Overload retVal="INT" descr="Returns the position of the n:th occurrence in the string text of any of the characters found in the string characterset"><Param name="text" /><Param name="characterset [, n ]" /></Overload></KeyWord>
+		<KeyWord name="FINV" func="yes" />
+		<KeyWord name="FIRST" />
+		<KeyWord name="FirstSortedValue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the first value of expression sorted by corresponding sort-weight when expression is iterated over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression [, sort-weight [, n ]]" /></Overload></KeyWord>
+		<KeyWord name="FirstValue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the first value in load order of expression over a number of records as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="FirstWorkDate" func="yes"><Overload retVal="DATE" descr="Returns the latest starting date to achieve number_of_workdays (Monday-Friday) ending no later than end_date taking into account any optionally listed holidays"><Param name="end_date" /><Param name="number_of_workdays {, holiday}" /></Overload></KeyWord>
+		<KeyWord name="floor" func="yes"><Overload retVal="NUM" descr="Rounding of x downwards to the nearest multiple of base with an offset of offset"><Param name="x [ , base [ , offset ]]" /></Overload></KeyWord>
+		<KeyWord name="fmod" func="yes"><Overload retVal="NUM" descr="Generalized modula function. Both parameters are interpreted as real numbers, i.e. they do not have to be integers"><Param name="x1" /><Param name="x2" /></Overload></KeyWord>
+		<KeyWord name="FORCE" />
+		<KeyWord name="frac" func="yes"><Overload retVal="NUM" descr="Returns the fraction part of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="fractile" func="yes"><Overload retVal="NUM" descr="Returns the fractile of expression over a number of records as defined by a group by clause"><Param name="expression" /><Param name="fractile" /></Overload></KeyWord>
+		<KeyWord name="FROM" />
+		<KeyWord name="FV" func="yes" />
+		<KeyWord name="GENERIC" />
+		<KeyWord name="GetExtendedProperty" func="yes"><Overload retVal="DUAL VAL" descr="Returns the value of a named extended property in the sheet object with the given object id"><Param name="name [, objectid ]" /></Overload></KeyWord>
+		<KeyWord name="GetFolderPath" func="yes"><Overload retVal="STRING" descr="Returns the value of the Microsoft Windows SHGetFolderPath function and returns the path for e.g. MyMusic"><Param name="string" /></Overload></KeyWord>
+		<KeyWord name="GetObjectField" func="yes"><Overload retVal="DUAL VAL" descr="Returns the name of the dimension"><Param name="[index]" /></Overload></KeyWord>
+		<KeyWord name="GetRegistryString" func="yes"><Overload retVal="DUAL VAL" descr="Returns the value of a named registry key with a given registry path"><Param name="path" /><Param name="key" /></Overload></KeyWord>
+		<KeyWord name="GMT" func="yes"><Overload retVal="TIMESTAMP" descr="Returns the current Greenwich Mean Time, as derived from the system clock and Windows time settings"></Overload></KeyWord>
+		<KeyWord name="Green" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for green (RGB 0,128,0)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="GROUP BY" />
+		<KeyWord name="Hash128" func="yes"><Overload retVal="STRING" descr="Returns a 128-bit hash of the combined input expression values"><Param name="expression {, expression }" /></Overload></KeyWord>
+		<KeyWord name="Hash160" func="yes"><Overload retVal="STRING" descr="Returns a 160-bit hash of the combined input expression values"><Param name="expression {, expression }" /></Overload></KeyWord>
+		<KeyWord name="Hash256" func="yes"><Overload retVal="STRING" descr="Returns a 256-bit hash of the combined input expression values"><Param name="expression {, expression }" /></Overload></KeyWord>
+		<KeyWord name="HIERARCHY" />
+		<KeyWord name="HIERARCHYBELONGSTO" />
+		<KeyWord name="hour" func="yes"><Overload retVal="INT" descr="Returns an integer representing the hour when the fraction of time is interpreted as a time"><Param name="TIME time" /></Overload></KeyWord>
+		<KeyWord name="HSL" func="yes"><Overload retVal="DUAL VAL" descr="Returns the color representation of a color defined by a hue between 0 and 1, a saturation value between 0 and 1 and a luminosity value between 0 and 1"><Param name="hue" /><Param name="saturation" /><Param name="luminosity" /></Overload></KeyWord>
+		<KeyWord name="if" func="yes"><Overload retVal="DUAL VAL" descr="If the expression condition is true, the expression then will be performed, otherwise the expression else will be performed"><Param name="condition" /><Param name="then" /><Param name="else" /></Overload></KeyWord>
+		<KeyWord name="InDay" func="yes"><Overload retVal="BOOL" descr="Returns true if timestamp lies inside the day containing basetimestamp"><Param name="timestamp" /><Param name="basetimestamp" /><Param name="shift [, daystart]" /></Overload></KeyWord>
+		<KeyWord name="InDayToTime" func="yes"><Overload retVal="BOOL" descr="Returns true if timestamp lies inside the part of day containing basetimestamp up until and including the exact millisecond of basetimestamp"><Param name="timestamp" /><Param name="basetimestamp" /><Param name="shift [, daystart]" /></Overload></KeyWord>
+		<KeyWord name="Index" func="yes"><Overload retVal="INT" descr="Position of a substring. This function gives the starting position of the n:th occurrence of substring s2 in string s1"><Param name="s1" /><Param name="s2 [, n ]" /></Overload></KeyWord>
+		<KeyWord name="INFO IMAGE_SIZE" />
+		<KeyWord name="INFO LOAD" />
+		<KeyWord name="INFO SQL" />
+		<KeyWord name="INLINE" />
+		<KeyWord name="InLunarWeek" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the lunar week (consecutive 7 day periods starting on January 1st each year) containing basedate"><Param name="date" /><Param name="basedate" /><Param name="shift [, weekstart]" /></Overload></KeyWord>
+		<KeyWord name="InLunarWeekToDate" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the part of lunar week (consecutive 7 day periods starting on January 1st each year) containing basedate up until and including the last millisecond of basedate"><Param name="date" /><Param name="basedate" /><Param name="shift [, weekstart]" /></Overload></KeyWord>
+		<KeyWord name="InMonth" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the month containing basedate"><Param name="date" /><Param name="basedate" /><Param name="shift" /></Overload></KeyWord>
+		<KeyWord name="InMonths" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the n month shift (aligned from January 1st) containing basedate"><Param name="n" /><Param name="date" /><Param name="basedate " /><Param name="shift [, first_month_of_year = 1]" /></Overload></KeyWord>
+		<KeyWord name="InMonthsToDate" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the part of the n month period (aligned from January 1st) containing basedate up until and including the last millisecond of basedate"><Param name="n" /><Param name="date" /><Param name="basedate " /><Param name="shift [, first_month_of_year = 1]" /></Overload></KeyWord>
+		<KeyWord name="InMonthToDate" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the part of month containing basedate up until and including the last millisecond of basedate"><Param name="date" /><Param name="basedate" /><Param name="shift" /></Overload></KeyWord>
+		<KeyWord name="INNER JOIN" />
+		<KeyWord name="INNER KEEP" />
+		<KeyWord name="Input" func="yes"><Overload retVal="NUM|STRING" descr="This function can be used in the script only and opens an input box that prompts the user for a value during the script execution"><Param name="cue [, caption ]" /></Overload></KeyWord>
+		<KeyWord name="INPUTFIELD" />
+		<KeyWord name="InQuarter" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the quarter containing basedate"><Param name="date" /><Param name="basedate" /><Param name="shift [, first_month_of_year = 1]" /></Overload></KeyWord>
+		<KeyWord name="InQuarterToDate" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the part of the quarter containing basedate up until and including the last millisecond of basedate"><Param name="date" /><Param name="basedate" /><Param name="shift [, first_month_of_year = 1]" /></Overload></KeyWord>
+		<KeyWord name="Interval" func="yes"><Overload retVal="TIME" descr="Formats the expression as a time interval according to the string given as a format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="Interval#" func="yes"><Overload retVal="TIME" descr="Evaluates the expression as a time interval according to the string given as a format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="INTERVALMATCH" />
+		<KeyWord name="INTO" />
+		<KeyWord name="InWeek" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the week containing basedate"><Param name="date" /><Param name="basedate" /><Param name="shift [, weekstart]" /></Overload></KeyWord>
+		<KeyWord name="InWeekToDate" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the part of week containing basedate up until and including the last millisecond of basedate"><Param name="date" /><Param name="basedate" /><Param name="shift [, weekstart]" /></Overload></KeyWord>
+		<KeyWord name="InYear" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the year containing basedate. The year can be offset by shift"><Param name="date" /><Param name="basedate" /><Param name="shift [, first_month_of_year = 1]" /></Overload></KeyWord>
+		<KeyWord name="InYearToDate" func="yes"><Overload retVal="BOOL" descr="Returns true if date lies inside the part of year containing basedate up until and including the last millisecond of basedate"><Param name="date" /><Param name="basedate" /><Param name="shift [, first_month_of_year = 1]" /></Overload></KeyWord>
+		<KeyWord name="IRR" func="yes" />
+		<KeyWord name="IsNull" func="yes"><Overload retVal="BOOL" descr="Returns -1 (true) if expr returns NULL, otherwise 0 (false)"></Overload></KeyWord>
+		<KeyWord name="IsNum" func="yes"><Overload retVal="BOOL" descr="Returns -1 (true) if the expression can be interpreted as a number, otherwise 0 (false)"><Param name="expr" /></Overload></KeyWord>
+		<KeyWord name="IsPartialReload" func="yes"><Overload retVal="BOOL" descr="Returns - 1 (true) if the current reload is partial, otherwise 0 (false)"></Overload></KeyWord>
+		<KeyWord name="IsText" func="yes"><Overload retVal="BOOL" descr="Returns -1 (true) if the expression has a text representation, otherwise 0 (false)"><Param name="expr" /></Overload></KeyWord>
+		<KeyWord name="IterNo" func="yes"><Overload retVal="INT" descr="Returns an integer indicating for which time one single record is evaluated in a load statement with a while clause"></Overload></KeyWord>
+		<KeyWord name="JOIN" />
+		<KeyWord name="KeepChar" func="yes"><Overload retVal="STRING" descr="Returns the string s1 less all characters not contained in string s2"><Param name="s1" /><Param name="s2" /></Overload></KeyWord>
+		<KeyWord name="Kurtosis" func="yes"><Overload retVal="NUM" descr="Returns the kurtosis of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="LastValue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the last value in load order of expression over a number of records as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="LastWorkDate" func="yes"><Overload retVal="DATE" descr="Returns the earliest ending date to achieve number_of_workdays (Monday-Friday) if starting at start_date taking into account any optionally listed holidays"><Param name="start_date" /><Param name="number_of_workdays {, holiday}" /></Overload></KeyWord>
+		<KeyWord name="left" func="yes"><Overload retVal="STRING" descr="Substring of the string s. The result is a string consisting of the first n characters of s"><Param name="s" /><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="LEFT JOIN" />
+		<KeyWord name="LEFT KEEP" />
+		<KeyWord name="len" func="yes"><Overload retVal="INT" descr="Length of string s. The result is an integer"><Param name="s" /></Overload></KeyWord>
+		<KeyWord name="LET" />
+		<KeyWord name="LightBlue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light blue (RGB 0,0,255)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="LightCyan" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light cyan (RGB 0,255,255)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="LightGray" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light gray (RGB 192,192,192)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="LightGreen" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light green (RGB 0,255,0)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="LightMagenta" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for magenta (RGB 255,0,255)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="LightRed" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light red (RGB 255,0,0)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_B" func="yes"><Overload retVal="NUM" descr="Returns the aggregated b value (y-intercept) of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_DF" func="yes"><Overload retVal="NUM" descr="returns the aggregated degrees of freedom of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_F" func="yes"><Overload retVal="NUM" descr="returns the aggregated F statistic (r2/(1-r2)) of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_M" func="yes"><Overload retVal="NUM" descr="Returns the aggregated m value (slope) of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_R2" func="yes"><Overload retVal="NUM" descr="returns the aggregated r2 value (coefficient of determination) of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_SEB" func="yes"><Overload retVal="NUM" descr="returns the aggregated standard error of the b value of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_SEM" func="yes"><Overload retVal="NUM" descr="returns the aggregated standard error of the m value of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_SEY" func="yes"><Overload retVal="NUM" descr="returns the aggregated standard error of the y estimate of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_SSREG" func="yes"><Overload retVal="NUM" descr="returns the aggregated regression sum of squares of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LINEST_SSRESID" func="yes"><Overload retVal="NUM" descr="returns the aggregated residual sum of squares of a linear regression defined by the equation y=mx+b for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression [, y0 [, x0 ]]" /></Overload></KeyWord>
+		<KeyWord name="LOAD" />
+		<KeyWord name="LocalTime" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a timestamp of the current time from the system clock for a specified time zone."><Param name="[timezone [, ignoreDST ]]" /></Overload></KeyWord>
+		<KeyWord name="log" func="yes"><Overload retVal="NUM" descr="The natural logarithm of x. The function is only defined if x > 0"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="log10" func="yes"><Overload retVal="NUM" descr="The 10-logarithm (base 10) of x. The function is only defined if x > 0"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="lookup" func="yes"><Overload retVal="DUAL VAL" descr="Returns the value of fieldname corresponding to the first occurrence of the value matchfieldvalue in the field matchfieldname"><Param name="fieldname" /><Param name="matchfieldname" /><Param name="matchfieldvalue [, tablename ]" /></Overload></KeyWord>
+		<KeyWord name="LOOSEN" />
+		<KeyWord name="lower" func="yes"><Overload retVal="STRING" descr="Forces lower case for all data in the string"><Param name="string" /></Overload></KeyWord>
+		<KeyWord name="LTrim" func="yes"><Overload retVal="STRING" descr="Returns the string s trimmed of any leading spaces"><Param name="s" /></Overload></KeyWord>
+		<KeyWord name="LunarWeekEnd" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the last millisecond of the lunar week (consecutive 7 day periods starting on January 1st each year) containing date"><Param name="date [, shift = 0 [,weekoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="LunarWeekName" func="yes"><Overload retVal="DUAL VAL" descr="Returns a display value showing the year and week number with an underlying numeric value corresponding to a timestamp with the first millisecond of the first date of the lunar week (consecutive 7 day periods starting on January 1st each year)containing date"><Param name="date [, shift = 0 [,weekoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="LunarWeekStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the lunar week (consecutive 7 day periods starting on January 1st each year) containing date"><Param name="date [, shift = 0 [,weekoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="Magenta" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for magenta (RGB 128,0,128)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="MakeDate" func="yes"><Overload retVal="DATE" descr="Returns a date calculated from the year YYYY, the month MM and the day DD"><Param name="YYYY [ , MM [ , DD ] ]" /></Overload></KeyWord>
+		<KeyWord name="MakeTime" func="yes"><Overload retVal="TIME" descr="Returns a time calculated from the hour hh, the minute mm the second ss with a fraction fff down to a millisecond"><Param name="hh [ , mm [ , ss [ .fff ] ] ]" /></Overload></KeyWord>
+		<KeyWord name="MakeWeekDate" func="yes"><Overload retVal="DATE" descr="Returns a date calculated from the year YYYY, the week WW and the day-of-week D"><Param name="YYYY [ , WW [ , D ] ] " /></Overload></KeyWord>
+		<KeyWord name="MAP" />
+		<KeyWord name="MAPPING LOAD" />
+		<KeyWord name="MapSubString" func="yes"><Overload retVal="DUAL VAL" descr="This function can be used for mapping parts of any expression on a previously loaded mapping table. The mapping is case sensitive and non-recursive"><Param name="'mapname'" /><Param name="expr" /></Overload></KeyWord>
+		<KeyWord name="match" func="yes"><Overload retVal="STRING" descr="The match function performs a case sensitive comparison"><Param name="string " /><Param name="expr1 [, expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="max" func="yes"><Overload retVal="NUM" descr="Returns the maximum numeric value of expression encountered over a number of records as defined by a group by clause"><Param name="expression [, rank ]" /></Overload></KeyWord>
+		<KeyWord name="MaxString" func="yes"><Overload retVal="STRING" descr="Returns the last text value of expression over a number of records, as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="median" func="yes"><Overload retVal="NUM" descr="returns the aggregated median of expression over a number of records as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="mid" func="yes"><Overload retVal="STRING" descr="Substring of the string s. The result is the string starting at character n1 with the length of n2 characters"><Param name="s" /><Param name="n1 [, n2 ]" /></Overload></KeyWord>
+		<KeyWord name="min" func="yes"><Overload retVal="NUM" descr="Returns the minimum numeric value of expression encountered over a number of records as defined by a group by clause"><Param name="expression [, rank ]" /></Overload></KeyWord>
+		<KeyWord name="MinString" func="yes"><Overload retVal="STRING" descr="Returns the first text value of expression over a number of records, as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="minute" func="yes"><Overload retVal="INT" descr="Returns an integer representing the minute when the fraction of time is interpreted as a time"><Param name="time" /></Overload></KeyWord>
+		<KeyWord name="MissingCount" func="yes"><Overload retVal="INT" descr="Returns the missing count of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="MixMatch" func="yes"><Overload retVal="STRING" descr="The mixmatch function performs a case insensitive comparison"><Param name="string " /><Param name="expr1 [, expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="mod" func="yes"><Overload retVal="INT" descr="Mathematical modula function. Both parameters must have integer values. x2 must be greater than 0"><Param name="x1" /><Param name="x2" /></Overload></KeyWord>
+		<KeyWord name="mode" func="yes"><Overload retVal="NUM|STRING" descr="Returns the mode value, i.e. the most commonly occurring value, of expression over a number of records, as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="money" func="yes"><Overload retVal="MONEY" descr="Formats the expression numerically according to the string given as format-code"><Param name="expression [, format-code [, decimal-sep [, thousands-sep ]]]" /></Overload></KeyWord>
+		<KeyWord name="money#" func="yes"><Overload retVal="MONEY" descr="Evaluates the expression numerically according to the string given as format-code. Decimal separator and thousands separator can be set as third and fourth parameters"><Param name="expression [, format-code [, decimal-sep [, thousands-sep ]]]" /></Overload></KeyWord>
+		<KeyWord name="month" func="yes"><Overload retVal="DUAL VAL" descr="Returns a dual value representing the month when date is interpreted as a date"><Param name="date" /></Overload></KeyWord>
+		<KeyWord name="MonthEnd" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the last millisecond of the last date of the month containing date"><Param name="date [, shift = 0]" /></Overload></KeyWord>
+		<KeyWord name="MonthName" func="yes"><Overload retVal="DUAL VAL" descr="Returns a display value showing the month and year with an underlying numeric value corresponding to a timestamp with the first millisecond of the first date of the month"><Param name="date [, shift = 0]" /></Overload></KeyWord>
+		<KeyWord name="MonthsEnd" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the last millisecond of the n month period (starting from January 1st) containing date"><Param name="n" /><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="MonthsName" func="yes"><Overload retVal="DUAL VAL" descr="Returns a display value showing the months of the period and year with an underlying numeric value corresponding to a timestamp with the first millisecond of the n month period (starting from January 1st) containing date"><Param name="n" /><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="MonthsStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the n month period (starting from January 1st) containing date"><Param name="n" /><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="MonthStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the first date of the month containing date"><Param name="date [, shift = 0]" /></Overload></KeyWord>
+		<KeyWord name="MsgBox" func="yes"><Overload retVal="INT" descr="This function can be used in the script only and opens a message box during the script execution"><Param name="msg [, caption [, mb_buttons [, mb_icons[, mb_defbutton]]]]" /></Overload></KeyWord>
+		<KeyWord name="NetWorkDays" func="yes"><Overload retVal="INT" descr="Returns the number of working days (Monday-Friday) between and including start_date and end_date taking into account any optionally listed holidays"><Param name="start_date" /><Param name="end_date {, holiday}" /></Overload></KeyWord>
+		<KeyWord name="NOCONCATENATE" />
+		<KeyWord name="NoOfFields" func="yes"><Overload retVal="INT" descr="Returns the number of fields in a previously loaded table"><Param name="'tablename'" /></Overload></KeyWord>
+		<KeyWord name="NoOfReports" func="yes"><Overload retVal="INT" descr="Returns the number of reports in the active document"></Overload></KeyWord>
+		<KeyWord name="NoOfRows" func="yes"><Overload retVal="INT" descr="Returns the number of rows (records) in a previously loaded table"><Param name="'tablename'" /></Overload></KeyWord>
+		<KeyWord name="NoOfTables" func="yes"><Overload retVal="INT" descr="Returns the number of tables previously loaded"></Overload></KeyWord>
+		<KeyWord name="NORMDIST" func="yes"><Overload retVal="NUM" descr="Returns the cumulative normal distribution for the specified mean and standard deviation"><Param name="value" /><Param name="mean" /><Param name="standard_dev" /></Overload></KeyWord>
+		<KeyWord name="NORMINV" func="yes"><Overload retVal="NUM" descr="Returns the inverse of the normal cumulative distribution for the specified mean and standard deviation"><Param name="prob" /><Param name="mean" /><Param name="standard_dev" /></Overload></KeyWord>
+		<KeyWord name="NOT" />
+		<KeyWord name="now" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a timestamp of the current time from the system clock"><Param name="[0|1|2]" /></Overload></KeyWord>
+		<KeyWord name="nPer" func="yes"><Overload retVal="NUM" descr="Returns the number of periods for an investment based on periodic, constant payments and a constant interest rate"><Param name="rate" /><Param name="pmt" /><Param name="pv [, fv [, type ]]" /></Overload></KeyWord>
+		<KeyWord name="NPV" func="yes" />
+		<KeyWord name="null" func="yes"><Overload retVal="NULL" descr="Returns a real NULL value."></Overload></KeyWord>
+		<KeyWord name="NULLASNULL" />
+		<KeyWord name="NULLASVALUE" />
+		<KeyWord name="NullCount" func="yes"><Overload retVal="INT" descr="Returns the NULL count of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="num" func="yes"><Overload retVal="NUM" descr="Formats the expression numerically according to the string given as format-code"><Param name="expression [, format-code [, decimal-sep [, thousands-sep]]]" /></Overload></KeyWord>
+		<KeyWord name="num#" func="yes"><Overload retVal="NUM" descr="Evaluates the expression numerically according to the string given as format-code"><Param name="expression [, format-code [, decimal-sep [, thousands-sep]]]" /></Overload></KeyWord>
+		<KeyWord name="NumAvg" func="yes"><Overload retVal="NUM" descr="!Obsolete, use RangeAvg function! Returns the numeric average of 1 to N arguments. If no numeric value is found, NULL is returned."><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="NumCount" func="yes"><Overload retVal="INT" descr="!Obsolete, use RangeCount function! Returns the number of numeric values found in 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="NumericCount" func="yes"><Overload retVal="INT" descr="Returns the numeric count of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="NumMax" func="yes"><Overload retVal="NUM" descr="!Obsolete, use RangeMax function! Returns the lowest numeric value of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="NumMin" func="yes"><Overload retVal="NUM" descr="!Obsolete, use RangeMin function! Returns the lowest numeric value of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="NumSum" func="yes"><Overload retVal="NUM" descr="!Obsolete, use RangeSum function! Returns the numeric sum of 1 to N arguments. As opposed to the + operator, numsum will treat all non-numeric values as 0"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="odd" func="yes"><Overload retVal="BOOL" descr="Returns true if n is an odd integer, false if n is an even integer and NULL if n is not an integer."><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="only" func="yes"><Overload retVal="DUAL VAL" descr="If expression over a number of records, as defined by a group by clause, contains only one value, that value is returned"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="OR" />
+		<KeyWord name="ord" func="yes"><Overload retVal="INT" descr="ASCII number of first character of string s. The result is an integer"><Param name="s" /></Overload></KeyWord>
+		<KeyWord name="OSUser" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the current user as returned by the operating system"></Overload></KeyWord>
+		<KeyWord name="OUTER JOIN" />
+		<KeyWord name="peek" func="yes"><Overload retVal="DUAL VAL" descr="Returns the contents of the fieldname in the record specified by row in the internal table tablename"><Param name="fieldname [, row [, tablename ]]" /></Overload></KeyWord>
+		<KeyWord name="Permut" func="yes"><Overload retVal="INT" descr="Returns the number of permutations of n2 items that can be selected from a group of n1 items. The order in which the items are selected is significant."><Param name="n1" /><Param name="n2" /></Overload></KeyWord>
+		<KeyWord name="Pi" func="yes"><Overload retVal="NUM" descr="The function returns p. 3.14159..."></Overload></KeyWord>
+		<KeyWord name="Pick" func="yes"><Overload retVal="DUAL VAL" descr="Returns the n:th expression in the list"><Param name="n" /><Param name="expr1 [, expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="Pmt" func="yes"><Overload retVal="MONEY" descr="Returns the payment for a loan based on periodic, constant payments and a constant interest rate"><Param name="rate" /><Param name="nper" /><Param name="pv [, fv [, type ]] " /></Overload></KeyWord>
+		<KeyWord name="pow" func="yes"><Overload retVal="NUM" descr="Returns x to the power of y"><Param name="x" /><Param name="y" /></Overload></KeyWord>
+		<KeyWord name="Previous" func="yes"><Overload retVal="DUAL VAL" descr="Returns the value of expression using data from the previous input record that was not discarded due to a where clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="PurgeChar" func="yes"><Overload retVal="STRING" descr="Returns the string s1 less all characters contained in string s2"><Param name="s1" /><Param name="s2" /></Overload></KeyWord>
+		<KeyWord name="PV" func="yes"><Overload retVal="MONEY" descr="Returns the present value of an investment"><Param name="rate" /><Param name="nper" /><Param name="pmt [, fv [, type ]]" /></Overload></KeyWord>
+		<KeyWord name="QlikTechBlue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for QT blue (RGB 8,18,90)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="QlikTechGray" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for QT gray (RGB 158,148,137)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="QlikViewVersion" func="yes"><Overload retVal="STRING" descr="Returns the full QlikView version and build number (e.g. 7.52.3797.0409.3) as a string"></Overload></KeyWord>
+		<KeyWord name="QUALIFY" />
+		<KeyWord name="QuarterEnd" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the last millisecond of the quarter containing date"><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="QuarterName" func="yes"><Overload retVal="DUAL VAL" descr="Returns a display value showing the months of the quarter  and year with an underlying numeric value corresponding to a timestamp with the first millisecond of the first date of the quarter"><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="QuarterStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the quarter containing date"><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="QvdCreateTime" func="yes"><Overload retVal="TIMESTAMP" descr="Returns the XML-header time stamp from a QVD file if any (otherwise NULL)"><Param name="filename" /></Overload></KeyWord>
+		<KeyWord name="QvdFieldName" func="yes"><Overload retVal="STRING" descr="Returns the name of field number fieldno, if it exists in a QVD file (otherwise NULL)"><Param name="filename" /><Param name="fieldno" /></Overload></KeyWord>
+		<KeyWord name="QvdNoOfFields" func="yes"><Overload retVal="INT" descr="Returns the number of fields in a QVD file"></Overload></KeyWord>
+		<KeyWord name="QvdNoOfRecords" func="yes"><Overload retVal="INT" descr="Returns the number of records currently in a QVD file"><Param name="filename" /></Overload></KeyWord>
+		<KeyWord name="QvdTableName" func="yes"><Overload retVal="STRING" descr="Returns the name of the table contained in a QVD file"><Param name="filename" /></Overload></KeyWord>
+		<KeyWord name="QVUser" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the current QlikView user as entered in a section access"></Overload></KeyWord>
+		<KeyWord name="rand" func="yes"><Overload retVal="NUM" descr="Returns a random number between 0 and 1"></Overload></KeyWord>
+		<KeyWord name="RangeAvg" func="yes"><Overload retVal="NUM" descr="Returns the average of a range of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeCorrel" func="yes"><Overload retVal="NUM" descr="Returns the correlation coefficient for a series of coordinates"><Param name="x-value" /><Param name="y-value {, x-value, y-value }" /></Overload></KeyWord>
+		<KeyWord name="RangeCount" func="yes"><Overload retVal="INT" descr="Returns the number of values found within a range of 1 to N arguments. NULL values are not counted"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeFractile" func="yes"><Overload retVal="NUM" descr="Returns the fractile within a range of 1 to N arguments."><Param name="fractile" /><Param name="expr1 [, expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeIRR" func="yes"><Overload retVal="NUM" descr="Returns the internal rate of return for a series of cash flows represented by the numbers in values"><Param name="value {, value }" /></Overload></KeyWord>
+		<KeyWord name="RangeKurtosis" func="yes"><Overload retVal="NUM" descr="Returns the kurtosis within a range of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeMax" func="yes"><Overload retVal="NUM" descr="Returns the highest numeric value found within a range 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeMaxString" func="yes"><Overload retVal="STRING" descr="Returns the last value in text sort order found among 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeMin" func="yes"><Overload retVal="NUM" descr="Returns the lowest numeric value found within a range 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeMinString" func="yes"><Overload retVal="STRING" descr="Returns the first value in text sort order found among 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeMissingCount" func="yes"><Overload retVal="INT" descr="Returns the number of non-numeric values (including NULL values) found among 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeMode" func="yes"><Overload retVal="NUM|STRING" descr="Returns the mode value, i.e. the most commonly occurring value within a range of 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeNPV" func="yes"><Overload retVal="MONEY" descr="Returns the net present value of an investment based on a discount rate and a series of future payments (negative values) and incomes (positive values)"><Param name="rate" /><Param name="value {, value }" /></Overload></KeyWord>
+		<KeyWord name="RangeNullCount" func="yes"><Overload retVal="INT" descr="Returns the number of NULL values found within a range of 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeNumericCount" func="yes"><Overload retVal="INT" descr="Returns the number of numeric values found within a range of 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeOnly" func="yes"><Overload retVal="DUAL VAL" descr="If exactly one non-NULL value exists among the range of N expressions, that value will be returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeSkew" func="yes"><Overload retVal="NUM" descr="Returns the skewness within a range of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeStdev" func="yes"><Overload retVal="NUM" descr="Returns the standard deviation found within a range of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeSum" func="yes"><Overload retVal="NUM" descr="Returns the sum of a range of 1 to N arguments. As opposed to the + operator, it treats all non-numeric values as 0"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeTextCount" func="yes"><Overload retVal="INT" descr="Returns the number of text values found within a range of 1 to N arguments"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="RangeXIRR" func="yes"><Overload retVal="NUM" descr="Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic"><Param name="value" /><Param name="date {, value, date }" /></Overload></KeyWord>
+		<KeyWord name="RangeXNPV" func="yes"><Overload retVal="MONEY" descr="Returns the net present value for a schedule of cash flows that is not necessarily periodic"><Param name="rate" /><Param name="value" /><Param name="date {, value, date }" /></Overload></KeyWord>
+		<KeyWord name="rate" func="yes"><Overload retVal="NUM" descr="Returns the interest rate per period on annuity. The result has a default number format of Fix two decimals and %"><Param name="nper" /><Param name="pmt" /><Param name="pv [, fv [, type ]]" /></Overload></KeyWord>
+		<KeyWord name="RecNo" func="yes"><Overload retVal="INT" descr="Returns an integer for the number of the currently read row of the raw source table data"></Overload></KeyWord>
+		<KeyWord name="Red" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for red (RGB 128,0,0)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="ReloadTime" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a timestamp for when the script last finished reexecuting"></Overload></KeyWord>
+		<KeyWord name="RENAME FIELD" />
+		<KeyWord name="RENAME FIELD USING" />
+		<KeyWord name="RENAME FIELDS" />
+		<KeyWord name="RENAME FIELDS USING" />
+		<KeyWord name="RENAME TABLE" />
+		<KeyWord name="RENAME TABLE USING" />
+		<KeyWord name="RENAME TABLES" />
+		<KeyWord name="RENAME TABLES USING" />
+		<KeyWord name="repeat" func="yes"><Overload retVal="STRING" descr="Forms a string consisting of the string s repeated n times"><Param name="s" /><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="replace" func="yes"><Overload retVal="STRING" descr="Returns a string after replacing all occurrences of a given substring within the string s with another substring"><Param name="s" /><Param name="fromstring" /><Param name="tostring" /></Overload></KeyWord>
+		<KeyWord name="REPLACE LOAD" />
+		<KeyWord name="REPLACE ONLY LOAD" />
+		<KeyWord name="ReportComment" func="yes"><Overload retVal="STRING" descr="Returns the comment of the report with the specified number within the active document."><Param name="report_number" /></Overload></KeyWord>
+		<KeyWord name="ReportId" func="yes"><Overload retVal="STRING" descr="Returns the id of the report with the specified number within the active document"><Param name="report_number" /></Overload></KeyWord>
+		<KeyWord name="ReportName" func="yes"><Overload retVal="STRING" descr="Returns the name of the report with the specified number within the active document"><Param name="report_number" /></Overload></KeyWord>
+		<KeyWord name="ReportNumber" func="yes"><Overload retVal="INT" descr="Returns the number of the report with the specified id or name within the active document"><Param name="report_id_or_name" /></Overload></KeyWord>
+		<KeyWord name="RESIDENT" />
+		<KeyWord name="RGB" func="yes"><Overload retVal="DUAL VAL" descr="Returns the color representation of a color defined by the red component e1, the green component e2 and the blue component e3"><Param name="e1" /><Param name="e2" /><Param name="e3" /></Overload></KeyWord>
+		<KeyWord name="right" func="yes"><Overload retVal="STRING" descr="Substring of the string s. The result is a string consisting of the last n characters of s."><Param name="s" /><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="RIGHT JOIN" />
+		<KeyWord name="RIGHT KEEP" />
+		<KeyWord name="round" func="yes"><Overload retVal="NUM" descr="Rounding of x upwards or downwards n number of steps with an offset of offset"><Param name="x [ , step [ , offset ]]" /></Overload></KeyWord>
+		<KeyWord name="RowNo" func="yes"><Overload retVal="INT" descr="Returns an integer for the position of the current row in the resulting QlikView internal table"></Overload></KeyWord>
+		<KeyWord name="RTrim" func="yes"><Overload retVal="STRING" descr="Returns the string s trailing of any leading spaces"><Param name="s" /></Overload></KeyWord>
+		<KeyWord name="SAMPLE" />
+		<KeyWord name="Second" func="yes"><Overload retVal="INT" descr="Returns an integer representing the second when the fraction of time is interpreted as a time"><Param name="time" /></Overload></KeyWord>
+		<KeyWord name="SECTION" />
+		<KeyWord name="SELECT" />
+		<KeyWord name="SEMANTIC" />
+		<KeyWord name="SEMANTIC" />
+		<KeyWord name="SET" />
+		<KeyWord name="SetDateYear" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a timestamp based on timestamp but with the year replaced with year"><Param name="timestamp" /><Param name="year" /></Overload></KeyWord>
+		<KeyWord name="SetDateYearMonth" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a timestamp based on timestamp but with the year replaced with year and the month replaced with month"><Param name="timestamp" /><Param name="year" /><Param name="month" /></Overload></KeyWord>
+		<KeyWord name="sign" func="yes"><Overload retVal="-1|0|1" descr="Returns 1, 0 or -1 depending on whether x is a number, 0 or a negative number. If no numeric value is found, NULL is returned"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="sin" func="yes"><Overload retVal="NUM" descr="Sine of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="sinh" func="yes"><Overload retVal="NUM" descr="Sine hyberbolicus of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="skew" func="yes"><Overload retVal="NUM" descr="Returns the skewness of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="SLEEP" />
+		<KeyWord name="SQL" />
+		<KeyWord name="SQLCOLUMNS" />
+		<KeyWord name="SQLTABLES" />
+		<KeyWord name="SQLTYPES" />
+		<KeyWord name="sqr" func="yes"><Overload retVal="NUM" descr="Square of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="sqrt" func="yes"><Overload retVal="NUM" descr="Square root of x. The function is only defined if x >= 0"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="STAR" />
+		<KeyWord name="StDev" func="yes"><Overload retVal="NUM" descr="Returns the standard deviation of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="STEP" />
+		<KeyWord name="Sterr" func="yes"><Overload retVal="NUM" descr="Returns the aggregated standard error (stdev/sqrt(n)) for a series of values represented by expression iterated over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="STEYX" func="yes"><Overload retVal="NUM" descr="Returns the aggregated standard error of the predicted y-value for each x-value in the regression for a series of coordinates represented by paired numbers in x-expression and y-expression iterated over a number of records as defined by a group by clause"><Param name="y-expression" /><Param name="x-expression" /></Overload></KeyWord>
+		<KeyWord name="STORE" />
+		<KeyWord name="SubField" func="yes"><Overload retVal="STRING" descr="2-parameter version: generates one record for each substring that can be taken from a larger string s with the delimiter 'delimiter'"><Param name="s" /><Param name="'delimiter'" /></Overload><Overload retVal="STRING" descr="3-parameter version: returns a given substring defined by index from a larger string s using delimiter 'delimiter'"><Param name="s" /><Param name="'delimiter'" /><Param name="index" /></Overload></KeyWord>
+		<KeyWord name="SubStringCount" func="yes"><Overload retVal="INT" descr="Returns the number of times the string substring appears within the string text"><Param name="text" /><Param name="substring" /></Overload></KeyWord>
+		<KeyWord name="sum" func="yes"><Overload retVal="NUM" descr="Returns the sum of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="SWITCH" />
+		<KeyWord name="SysColor" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for the Windows system color nr, where nr corresponds to the parameter to the Windows API function GetSysColor(nr)"><Param name="nr" /></Overload></KeyWord>
+		<KeyWord name="TableName" func="yes"><Overload retVal="STRING" descr="Returns the name of the table with the specified number"><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="TableNumber" func="yes"><Overload retVal="INT" descr="Returns the number of the specified table"><Param name="'tablename'" /></Overload></KeyWord>
+		<KeyWord name="TAG FIELD" />
+		<KeyWord name="TAG FIELDS" />
+		<KeyWord name="tan" func="yes"><Overload retVal="NUM" descr="Tangent of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="tanh" func="yes"><Overload retVal="NUM" descr="Tangent hyberbolicus of x"><Param name="x" /></Overload></KeyWord>
+		<KeyWord name="TDIST" func="yes"><Overload retVal="NUM" descr="Returns the probability for the Student t-distribution where a numeric value is a calculated value of t for which the probability is to be computed"><Param name="value" /><Param name="degrees_freedom" /><Param name="tails" /></Overload></KeyWord>
+		<KeyWord name="text" func="yes"><Overload retVal="STRING" descr="Forces the expression to be treated as text, even if a numeric interpretation is possible"></Overload></KeyWord>
+		<KeyWord name="TextBetween" func="yes"><Overload retVal="STRING" descr="Returns the text between the n:th occurrence of beforetext and the immediately following occurrence of aftertext within the string s"><Param name="s" /><Param name="beforetext" /><Param name="aftertext [, n ]" /></Overload></KeyWord>
+		<KeyWord name="TextCount" func="yes"><Overload retVal="INT" descr="Returns the text count of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression" /></Overload></KeyWord>
+		<KeyWord name="THEN" />
+		<KeyWord name="time" func="yes"><Overload retVal="TIME" descr="Formats the expression as a time according to the string given as format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="time#" func="yes"><Overload retVal="TIME" descr="Evaluates the expression as a time according to the string given as format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="timestamp" func="yes"><Overload retVal="TIMESTAMP" descr="Formats the expression as a timestamp according to the string given as format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="timestamp#" func="yes"><Overload retVal="TIMESTAMP" descr="Evaluates the expression as a timestamp according to the string given as format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
+		<KeyWord name="TimeZone" func="yes"><Overload retVal="STRING" descr="Returns the name of the current time zone, as defined in Windows"><Param name="prob" /><Param name="degrees_freedom" /><Param name="tails" /></Overload></KeyWord>
+		<KeyWord name="TINV" func="yes"><Overload retVal="NUM" descr="Returns the t-value of the Student's t-distribution as a function of the probability and the degrees of freedom"></Overload></KeyWord>
+		<KeyWord name="TO" />
+		<KeyWord name="today" func="yes"><Overload retVal="DATE" descr="Returns the current date from the system clock"><Param name="[0|1|2]" /></Overload></KeyWord>
+		<KeyWord name="TRACE" />
+		<KeyWord name="trim" func="yes"><Overload retVal="STRING" descr="Returns the string s trimmed of any leading and trailing spaces"><Param name="s" /></Overload></KeyWord>
+		<KeyWord name="true" func="yes"><Overload retVal="DUAL VAL" descr="Returns a dual value with text value 'true' and numeric value -1, which can be used as logical true in expressions"></Overload></KeyWord>
+		<KeyWord name="TTest_conf" func="yes"><Overload retVal="NUM" descr="Returns the aggregated t value for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, " /></Overload></KeyWord>
+		<KeyWord name="TTest_df" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test df value (degrees of freedom) for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, sig = 0.025 [, eq_var = true ]]" /></Overload></KeyWord>
+		<KeyWord name="TTest_dif" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test mean difference for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest_lower" func="yes"><Overload retVal="NUM" descr="Returns the aggregated value for the lower end of the confidence interval for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, sig = 0.025 [, eq_var = true ]]" /></Overload></KeyWord>
+		<KeyWord name="TTest_sig" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test 2-tailed level of significance for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest_sterr" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test standard error of the mean difference for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest_t" func="yes"><Overload retVal="NUM" descr="Returns the aggregated t value for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest_upper" func="yes"><Overload retVal="NUM" descr="Returns the aggregated value for the upper end of the confidence interval for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="group" /><Param name="value [, sig = 0.025 [, eq_var = true ]]" /></Overload></KeyWord>
+		<KeyWord name="TTest1_conf" func="yes" />
+		<KeyWord name="TTest1_df" func="yes" />
+		<KeyWord name="TTest1_dif" func="yes" />
+		<KeyWord name="TTest1_lower" func="yes" />
+		<KeyWord name="TTest1_sig" func="yes" />
+		<KeyWord name="TTest1_sterr" func="yes" />
+		<KeyWord name="TTest1_t" func="yes" />
+		<KeyWord name="TTest1_upper" func="yes" />
+		<KeyWord name="TTest1w_conf" func="yes" />
+		<KeyWord name="TTest1w_df" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test df value (degrees of freedom) for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest1w_dif" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test mean difference for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest1w_lower" func="yes" />
+		<KeyWord name="TTest1w_sig" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test 2-tailed level of significance for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest1w_sterr" func="yes"><Overload retVal="NUM" descr="returns the aggregated student's t-test standard error of the mean difference for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest1w_t" func="yes"><Overload retVal="NUM" descr="Returns the aggregated t value for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTest1w_upper" func="yes" />
+		<KeyWord name="TTestw_conf" func="yes" />
+		<KeyWord name="TTestw_df" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test df value (degrees of freedom) for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTestw_dif" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test mean difference for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTestw_lower" func="yes" />
+		<KeyWord name="TTestw_sig" func="yes"><Overload retVal="NUM" descr="Returns the aggregated student's t-test 2-tailed level of significance for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTestw_sterr" func="yes"><Overload retVal="NUM" descr="returns the aggregated student's t-test standard error of the mean difference for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTestw_t" func="yes"><Overload retVal="NUM" descr="Returns the aggregated t value for two independent series of values iterated over a number of records as defined by a group by clause"><Param name="weight" /><Param name="group" /><Param name="value [, eq_var = true ]" /></Overload></KeyWord>
+		<KeyWord name="TTestw_upper" func="yes" />
+		<KeyWord name="UNLESS" />
+		<KeyWord name="UNMAP" />
+		<KeyWord name="UNQUALIFY" />
+		<KeyWord name="UNTAG" />
+		<KeyWord name="upper" func="yes"><Overload retVal="STRING" descr="Forces upper case for all data in the string"><Param name="string" /></Overload></KeyWord>
+		<KeyWord name="USING" />
+		<KeyWord name="UTC" func="yes"><Overload retVal="TIMESTAMP" descr="Returns the current Coordinated Universal Time"></Overload></KeyWord>
+		<KeyWord name="week" func="yes"><Overload retVal="INT" descr="Returns an integer representing the week when date is interpreted as a date"><Param name="date" /></Overload></KeyWord>
+		<KeyWord name="WeekDay" func="yes"><Overload retVal="INT" descr="Returns an integer between 0-6 representing the day of the week when date is interpreted as a date"><Param name="date" /></Overload></KeyWord>
+		<KeyWord name="WeekEnd" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the last millisecond of the last date ( Sunday ) of the calendar week containing date"><Param name="date [, shift = 0 [,weekoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="WeekName" func="yes"><Overload retVal="DUAL VAL" descr="Returns a display value showing the year and week number with an underlying numeric value corresponding to a timestamp with the first millisecond of the first date of the week containing date"><Param name="date [, shift = 0 [,weekoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="WeekStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the first date ( Monday ) of the calendar week containing date"><Param name="date [, shift = 0 [,weekoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="WeekYear" func="yes"><Overload retVal="INT" descr="Returns an integer representing the year to which the week number of date belongs"><Param name="date" /></Overload></KeyWord>
+		<KeyWord name="WHEN" />
+		<KeyWord name="WHERE" />
+		<KeyWord name="white" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB representation for white (RGB 255,255,255)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="wildMatch" func="yes"><Overload retVal="STRING" descr="Performs a case insensitive comparison and permits the use of wildcard characters ( * and ?) in the comparison strings"><Param name="string " /><Param name="expr1 [, expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="wildMatch5" func="yes"><Overload retVal="STRING" descr="Provides compatibility with QV version 5. Performs a case insensitive comparison and permits the use of wildcard characters ( * and ?) in the comparison strings"><Param name="string " /><Param name="expr1 [, expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="WITH" />
+		<KeyWord name="XIRR" func="yes" />
+		<KeyWord name="XNPV" func="yes" />
+		<KeyWord name="year" func="yes"><Overload retVal="INT" descr="Returns an integer representing the year when date is interpreted as a date"><Param name="date" /></Overload></KeyWord>
+		<KeyWord name="year2Date" func="yes"><Overload retVal="BOOL" descr="Returns true if a date falls within the year to date, else false"><Param name="date [ , yearoffset [ , firstmonth [ , todaydate] ] ]" /></Overload></KeyWord>
+		<KeyWord name="yearEnd" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the last millisecond of the last date of the year containing date"><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="yearName" func="yes"><Overload retVal="DUAL VAL" descr="Returns a four-digit year as display value with an underlying numeric value corresponding to a timestamp with the first millisecond of the first date of the year containing date"><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="yearStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the first date of the year containing date"><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
+		<KeyWord name="yearToDate" func="yes"><Overload retVal="BOOL" descr="Returns true if a date falls within the year to date, else false"><Param name="date [ , yearoffset [ , firstmonth [ , todaydate] ] ]" /></Overload></KeyWord>
+		<KeyWord name="yellow" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for yellow (RGB 255,255,0)"><Param name="[alpha]" /></Overload></KeyWord>
+		<KeyWord name="ZTest_conf" func="yes" />
+		<KeyWord name="ZTest_dif" func="yes" />
+		<KeyWord name="ZTest_lower" func="yes" />
+		<KeyWord name="ZTest_sig" func="yes" />
+		<KeyWord name="ZTest_sterr" func="yes" />
+		<KeyWord name="ZTest_upper" func="yes" />
+		<KeyWord name="ZTest_z" func="yes" />
+		<KeyWord name="ZTestw_conf" func="yes" />
+		<KeyWord name="ZTestw_dif" func="yes" />
+		<KeyWord name="ZTestw_lower" func="yes" />
+		<KeyWord name="ZTestw_sig" func="yes" />
+		<KeyWord name="ZTestw_sterr" func="yes" />
+		<KeyWord name="ZTestw_upper" func="yes" />
+		<KeyWord name="ZTestw_z" func="yes" />
+	</AutoComplete>
+</NotepadPlus>
