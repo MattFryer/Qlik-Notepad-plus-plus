@@ -64,4 +64,4 @@ The options under Auto-Insert are optional and enable auto insertion of closing 
 ===============================================
 Disclaimer
 ===============================================
-This language definition is provided free of charge, as is, with no warranties or guarantees. Neither QlikViewAddict.com or any of it's contributors accept any liability for problems or loss resulting from it's use. 
+This language definition is provided free of charge, as is, with no warranties or guarantees. Neither Datoniq Limited or QlikViewAddict.com (including any of it's contributors) accept any liability for problems or loss resulting from it's use. 
