@@ -5,13 +5,13 @@ The QlikView Custom Language Definition for Notepad++ gives basic syntax highlig
 
 The syntax highlighting that is provided is limited to the capabilities of Notepad++ Custom Language Definitions and Auto-Completion files, and is an approximation of what you would get in QlikView's Edit Script dialog. It currently supports the following features:
 
-    * Highlighting of all current (v11.20) functions 
-    * Highlighting of all current (v11.20) keywords and statements 
-    * Highlighting of line comments (//) and block comments (/* */) 
-    * Folding of comments and code blocks including IF, SWITCH, FOR, DO and SUB statements 
-    * Auto-completion of all current functions, keywords and statements 
-    * Code tool tips for most commonly used functions
-    * Subroutines, qualify and unqaulify statements, table loads, info loads, mapping loads and store statements all identified within the function list.
+* Highlighting of all current (v11.20) functions 
+* Highlighting of all current (v11.20) keywords and statements 
+* Highlighting of line comments (//) and block comments (/* */) 
+* Folding of comments and code blocks including IF, SWITCH, FOR, DO and SUB statements 
+* Auto-completion of all current functions, keywords and statements 
+* Code tool tips for most commonly used functions
+* Subroutines, qualify and unqaulify statements, table loads, info loads, mapping loads and store statements all identified within the function list.
 
 If you find any keywords or functions missing then please let me know by reporting an issue and I'll add them to the next release. Support may also be added for subroutines within QlikView code libraries. If you'd like me to add support for your library, again please contact me.
 
