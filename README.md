@@ -19,7 +19,7 @@ If you find any keywords or functions missing then please let me know by reporti
 Here are the steps to get it installed and working yourself:
 
 1. If you don't already have it, you can download Notepad++ from http://notepad-plus-plus.org/download/. Its completely free and a great text editor. If you are running an older version of Notepad++ then you will need to upgrade to the latest version in order to ensure the language definition will work correctly. Note: this latest release will definitely not work with versions of Notepad++ prior to v6.4.1
-2. Download the QlikView language definition ZIP archive file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/archive/master.zip
+2. Download the QlikView language definition latest release ZIP archive file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest
 3. Unpack the 3 XML files from the archive to a folder on you hard drive. 
 4. Copy the "qlikview.xml" file from the folder to "%ProgramFiles(x86)%\Notepad++\plugins\APIs\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. 
 5. Copy the "functionList.xml" file from the folder to "%UserProfile%\AppData\Roaming\Notepad++\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. If prompted to overwrite an existing version of the file, do so. 
@@ -33,7 +33,7 @@ Here are the steps to get it installed and working yourself:
 If you already have a previous version of the QlikView language definition installed you will need to follow these steps to remove it and install the latest version:
 
 1. This latest release supports new features found in the language definitions for Notepad++ version 6.4.1 and greater, If you are running a previous version you will need to upgrade Notepad++ before continuing further. You can download the latest version from http://notepad-plus-plus.org/download/.
-2. Download the QlikView language definition XML file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/archive/master.zip
+2. Download the QlikView language definition latest release ZIP archive file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest
 3. Unpack the 3 XML files from the archive to a folder on you hard drive. 
 4. Copy the "qlikview.xml" file from the folder to "%ProgramFiles(x86)%\Notepad++\plugins\APIs\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. If prompted to overwrite an existing version of the file, do so.
 5. Copy the "functionList.xml" file from the folder to "%UserProfile%\AppData\Roaming\Notepad++\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. If prompted to overwrite an existing version of the file, do so.
