@@ -63,6 +63,7 @@
 		<KeyWord name="cosh" func="yes"><Overload retVal="NUM" descr="Cosine hyberbolicus of x"><Param name="x" /></Overload></KeyWord>
 		<KeyWord name="count" func="yes"><Overload retVal="INT" descr="Returns the count of expression over a number of records as defined by a group by clause"><Param name="[DISTINCT] expression|*" /></Overload></KeyWord>
 		<KeyWord name="CROSSTABLE" />
+		<KeyWord name="CUSTOM CONNECT TO" />
 		<KeyWord name="cyan" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for cyan (RGB 0,128,128)"><Param name="[alpha]" /></Overload></KeyWord>
 		<KeyWord name="darkgray" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for dark gray (RGB 128,128,128)"><Param name="[alpha]" /></Overload></KeyWord>
 		<KeyWord name="date" func="yes"><Overload retVal="DATE" descr="Formats the expression as a date according to the string given as format-code"><Param name="expression [, format-code ]" /></Overload></KeyWord>
@@ -74,7 +75,10 @@
 		<KeyWord name="daynumberofquarter" func="yes"><Overload retVal="INT" descr="Returns the day number of the quarter according to a timestamp with the first millisecond of the first day of the quarter containing date"><Param name="date[,firstmonth]" /></Overload></KeyWord>
 		<KeyWord name="daynumberofyear" func="yes"><Overload retVal="INT" descr="Returns the day number of the year according to a timestamp with the first millisecond of the first day of the year containing date"><Param name="date[,firstmonth]" /></Overload></KeyWord>
 		<KeyWord name="daystart" func="yes"><Overload retVal="TIMESTAMP" descr="Returns a value corresponding to a timestamp with the first millisecond of the day contained in timestamp"><Param name="timestamp [, shift = 0 [, dayoffset = 0]]" /></Overload></KeyWord>
+		<KeyWord name="DERIVE" />
+		<KeyWord name="DIMENSION" />
 		<KeyWord name="DIRECTORY" />
+		<KeyWord name="DIRECT QUERY" />
 		<KeyWord name="DISCONNECT" />
 		<KeyWord name="div" func="yes"><Overload retVal="INT" descr="Integer division. Both parameters are interpreted as real numbers, i.e. they do not have to be integers"><Param name="x1" /><Param name="x2" /></Overload></KeyWord>
 		<KeyWord name="DocumentName" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the current QlikView document, without path but with extension"></Overload></KeyWord>
@@ -120,6 +124,7 @@
 		<KeyWord name="FirstValue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the first value in load order of expression over a number of records as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
 		<KeyWord name="FirstWorkDate" func="yes"><Overload retVal="DATE" descr="Returns the latest starting date to achieve number_of_workdays (Monday-Friday) ending no later than end_date taking into account any optionally listed holidays"><Param name="end_date" /><Param name="number_of_workdays {, holiday}" /></Overload></KeyWord>
 		<KeyWord name="floor" func="yes"><Overload retVal="NUM" descr="Rounding of x downwards to the nearest multiple of base with an offset of offset"><Param name="x [ , base [ , offset ]]" /></Overload></KeyWord>
+		<KeyWord name="FLUSHLOG" />
 		<KeyWord name="fmod" func="yes"><Overload retVal="NUM" descr="Generalized modula function. Both parameters are interpreted as real numbers, i.e. they do not have to be integers"><Param name="x1" /><Param name="x2" /></Overload></KeyWord>
 		<KeyWord name="FORCE" />
 		<KeyWord name="frac" func="yes"><Overload retVal="NUM" descr="Returns the fraction part of x"><Param name="x" /></Overload></KeyWord>
@@ -185,6 +190,7 @@
 		<KeyWord name="LEFT KEEP" />
 		<KeyWord name="len" func="yes"><Overload retVal="INT" descr="Length of string s. The result is an integer"><Param name="s" /></Overload></KeyWord>
 		<KeyWord name="LET" />
+		<KeyWord name="LIB CONNECT TO" />
 		<KeyWord name="LightBlue" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light blue (RGB 0,0,255)"><Param name="[alpha]" /></Overload></KeyWord>
 		<KeyWord name="LightCyan" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light cyan (RGB 0,255,255)"><Param name="[alpha]" /></Overload></KeyWord>
 		<KeyWord name="LightGray" func="yes"><Overload retVal="DUAL VAL" descr="Returns the RGB color representation for light gray (RGB 192,192,192)"><Param name="[alpha]" /></Overload></KeyWord>
@@ -222,6 +228,7 @@
 		<KeyWord name="match" func="yes"><Overload retVal="STRING" descr="The match function performs a case sensitive comparison"><Param name="string " /><Param name="expr1 [, expr2, ... exprN ]" /></Overload></KeyWord>
 		<KeyWord name="max" func="yes"><Overload retVal="NUM" descr="Returns the maximum numeric value of expression encountered over a number of records as defined by a group by clause"><Param name="expression [, rank ]" /></Overload></KeyWord>
 		<KeyWord name="MaxString" func="yes"><Overload retVal="STRING" descr="Returns the last text value of expression over a number of records, as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
+		<KeyWord name="MEASURE" />
 		<KeyWord name="median" func="yes"><Overload retVal="NUM" descr="returns the aggregated median of expression over a number of records as defined by a group by clause"><Param name="expression" /></Overload></KeyWord>
 		<KeyWord name="mid" func="yes"><Overload retVal="STRING" descr="Substring of the string s. The result is the string starting at character n1 with the length of n2 characters"><Param name="s" /><Param name="n1 [, n2 ]" /></Overload></KeyWord>
 		<KeyWord name="min" func="yes"><Overload retVal="NUM" descr="Returns the minimum numeric value of expression encountered over a number of records as defined by a group by clause"><Param name="expression [, rank ]" /></Overload></KeyWord>
@@ -241,6 +248,7 @@
 		<KeyWord name="MonthsStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the n month period (starting from January 1st) containing date"><Param name="n" /><Param name="date [, shift = 0 [, first_month_of_year = 1]]" /></Overload></KeyWord>
 		<KeyWord name="MonthStart" func="yes"><Overload retVal="DATE" descr="Returns a value corresponding to a timestamp with the first millisecond of the first date of the month containing date"><Param name="date [, shift = 0]" /></Overload></KeyWord>
 		<KeyWord name="MsgBox" func="yes"><Overload retVal="INT" descr="This function can be used in the script only and opens a message box during the script execution"><Param name="msg [, caption [, mb_buttons [, mb_icons[, mb_defbutton]]]]" /></Overload></KeyWord>
+		<KeyWord name="NATIVE" />
 		<KeyWord name="NetWorkDays" func="yes"><Overload retVal="INT" descr="Returns the number of working days (Monday-Friday) between and including start_date and end_date taking into account any optionally listed holidays"><Param name="start_date" /><Param name="end_date {, holiday}" /></Overload></KeyWord>
 		<KeyWord name="NOCONCATENATE" />
 		<KeyWord name="NoOfFields" func="yes"><Overload retVal="INT" descr="Returns the number of fields in a previously loaded table"><Param name="'tablename'" /></Overload></KeyWord>
@@ -265,9 +273,11 @@
 		<KeyWord name="NumMax" func="yes"><Overload retVal="NUM" descr="!Obsolete, use RangeMax function! Returns the lowest numeric value of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
 		<KeyWord name="NumMin" func="yes"><Overload retVal="NUM" descr="!Obsolete, use RangeMin function! Returns the lowest numeric value of 1 to N arguments. If no numeric value is found, NULL is returned"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
 		<KeyWord name="NumSum" func="yes"><Overload retVal="NUM" descr="!Obsolete, use RangeSum function! Returns the numeric sum of 1 to N arguments. As opposed to the + operator, numsum will treat all non-numeric values as 0"><Param name="expr1 [ , expr2, ... exprN ]" /></Overload></KeyWord>
+		<KeyWord name="ODBC CONNECT TO" />
 		<KeyWord name="odd" func="yes"><Overload retVal="BOOL" descr="Returns true if n is an odd integer, false if n is an even integer and NULL if n is not an integer."><Param name="n" /></Overload></KeyWord>
+		<KeyWord name="OLEDB CONNCET TO" />
 		<KeyWord name="only" func="yes"><Overload retVal="DUAL VAL" descr="If expression over a number of records, as defined by a group by clause, contains only one value, that value is returned"><Param name="expression" /></Overload></KeyWord>
-		<KeyWord name="OR" />
+		<KeyWord name="OR" />		
 		<KeyWord name="ord" func="yes"><Overload retVal="INT" descr="ASCII number of first character of string s. The result is an integer"><Param name="s" /></Overload></KeyWord>
 		<KeyWord name="OSUser" func="yes"><Overload retVal="STRING" descr="Returns a string containing the name of the current user as returned by the operating system"></Overload></KeyWord>
 		<KeyWord name="OUTER JOIN" />
