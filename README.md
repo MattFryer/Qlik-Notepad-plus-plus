@@ -1,3 +1,9 @@
+[![GitHub version](https://img.shields.io/github/release/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Web-Highlight/releases/latest)
+[![GitHub download](https://img.shields.io/github/downloads/MattFryer/QlikView-Notepad-plus-plus/total.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/issues)
+[![GitHub license](https://img.shields.io/github/license/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/blob/master/LICENSE)
+
 #QlikView Language Definition for Notepad++
 
 The QlikView Custom Language Definition for Notepad++ gives basic syntax highlighting, auto-completion and code tool-tips when working with QlikView script files in Notepad++.
