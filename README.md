@@ -19,14 +19,14 @@ The syntax highlighting that is provided is limited to the capabilities of Notep
 * Code tool tips for most commonly used functions
 * Subroutines, qualify and unqaulify statements, table loads, info loads, mapping loads and store statements all identified within the function list.
 
-If you find any keywords or functions missing then please let me know by reporting an issue and I'll add them to the next release. Support may also be added for subroutines within QlikView code libraries. If you'd like me to add support for your library, again please contact me.
+If you find any keywords or functions missing then please let me know by reporting an issue and I'll add them to the next release. Support may also be added for subroutines within Qlik code libraries. If you'd like me to add support for your library, again please contact me.
 
 
 ## Installation
 Here are the steps to get it installed and working yourself:
 
 1. If you don't already have it, you can download Notepad++ from http://notepad-plus-plus.org/download/. Its completely free and a great text editor. If you are running an older version of Notepad++ then you will need to upgrade to the latest version in order to ensure the language definition will work correctly. Note: this latest release will definitely not work with versions of Notepad++ prior to v6.4.1
-2. Download the QlikView language definition latest release ZIP archive file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest
+2. Download the Qlik language definition latest release ZIP archive file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest
 3. Unpack the 3 XML files from the archive to a folder on you hard drive. 
 4. Copy the "qlikview.xml" file from the folder to "%ProgramFiles(x86)%\Notepad++\plugins\APIs\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. 
 5. Copy the "functionList.xml" file from the folder to "%UserProfile%\AppData\Roaming\Notepad++\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. If prompted to overwrite an existing version of the file, do so. 
@@ -37,10 +37,10 @@ Here are the steps to get it installed and working yourself:
 
 
 ## Upgrade
-If you already have a previous version of the QlikView language definition installed you will need to follow these steps to remove it and install the latest version:
+If you already have a previous version of the Qlik language definition installed you will need to follow these steps to remove it and install the latest version:
 
 1. This latest release supports new features found in the language definitions for Notepad++ version 6.4.1 and greater, If you are running a previous version you will need to upgrade Notepad++ before continuing further. You can download the latest version from http://notepad-plus-plus.org/download/.
-2. Download the QlikView language definition latest release ZIP archive file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest
+2. Download the Qlik language definition latest release ZIP archive file from https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest
 3. Unpack the 3 XML files from the archive to a folder on you hard drive. 
 4. Copy the "qlikview.xml" file from the folder to "%ProgramFiles(x86)%\Notepad++\plugins\APIs\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. If prompted to overwrite an existing version of the file, do so.
 5. Copy the "functionList.xml" file from the folder to "%UserProfile%\AppData\Roaming\Notepad++\". Tip: you can copy the path (including the % part) into Windows Explorer address bar. Windows may ask you to provide administrator privileges. If prompted to overwrite an existing version of the file, do so.
@@ -53,7 +53,7 @@ If you already have a previous version of the QlikView language definition insta
 
 
 ## How To Use
-If you open a .qvs file, Notepad++ will automatically identify it as a QlikView script file and apply the language definition for you. If you are creating a new file or using a different file extension then you'll need to change the language using the menu Language -> Qlik.
+If you open a .qvs file, Notepad++ will automatically identify it as a Qlik script file and apply the language definition for you. If you are creating a new file or using a different file extension then you'll need to change the language using the menu Language -> Qlik.
 
 When typing, Notepad++ will suggest keywords and function to complete what you started to type. When you type a function name followed by the opening bracket (, where possible Notepad++ will display a tool tip showing a description of the function and the correct syntax.
 
