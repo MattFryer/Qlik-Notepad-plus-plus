@@ -1,0 +1,692 @@
+//*************************************************************************
+// Code Collapsing
+//*************************************************************************
+// Blocks of comments (both line and block comments) should she shown as collapsible.
+// The following script statements should also be collapsible:
+// IF...ELSEIF...THEN...END IF
+// SWITCH...CASE...DEFAULT...END SWITCH
+// FOR...NEXT
+// DO...LOOP
+
+//*************************************************************************
+// Comments
+//*************************************************************************
+
+// This is a line comment and should be shown in green
+
+/* This is a block
+comment and should
+also shown in green*/
+
+Part of a line can also be shown //as a comment like this
+Part of a line /*can also be a comment*/ like this
+
+//Unfortunately the REM statement is currently not supported in Notepad++ but is in UltraEdit
+REM This is an example
+of a REM statement;
+
+//This REM comment should NOT be highlighted but it will be in UltraEdit
+LOAD a, REM, b RESIDENT MyTable;
+
+//*************************************************************************
+// Variable Statements
+//*************************************************************************
+
+//UK environment variables
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='£#,##0.00;-£#,##0.00';
+SET TimeFormat='hh:mm:ss';
+SET DateFormat='DD/MM/YYYY';
+SET TimestampFormat='DD/MM/YYYY hh:mm:ss[.fff]';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+//These statements should be coloured correctly. The variable names will not be highlighted grey as in QlikView as this is not possible in Notepad++
+SET vMyVariable = 100;
+LET vMyVariable = 100 * 10;
+set vMyVariable = 100;
+set vMyVariable = 100 * 10;
+
+// These statements should not be coloured as they do not match the criteria
+SETvMyVariable = 100;
+LETvMyVariable = 100;
+
+//*************************************************************************
+// Functions
+//*************************************************************************
+
+// The below should be highlighted as functions.
+acos()
+addmonths()
+addyears()
+age()
+alt()
+applycodepage()
+applymap()
+argb()
+asin()
+atan()
+atan2()
+attribute()
+author()
+autonumber()
+autonumberhash128()
+autonumberhash256()
+avg()
+bitcount()
+black()
+blackandschole()
+blue()
+brown()
+capitalize()
+ceil()
+chi2test_chi2()
+chi2test_df()
+chi2test_p()
+chidist()
+chiinv()
+chr()
+class()
+clientplatform()
+color()
+colormaphue()
+colormapjet()
+colormix1()
+colormix2()
+combin()
+computername()
+concat()
+connectstring()
+converttolocaltime()
+correl()
+cos()
+cosh()
+count()
+cyan()
+darkgray()
+date()
+date#()
+day()
+dayend()
+daylightsaving()
+dayname()
+daynumberofquarter()
+daynumberofyear()
+daystart()
+div()
+DocumentName()
+DocumentPath()
+DocumentTitle()
+Dual()
+e()
+Evaluate()
+Even()
+Exists()
+exp()
+fabs()
+Fact()
+False()
+FDIST()
+FieldIndex()
+FieldName()
+FieldNumber()
+FieldValue()
+FieldValueCount()
+FileBaseName()
+FileDir()
+FileExtension()
+FileName()
+FilePath()
+FileSize()
+FileTime()
+FindOneOf()
+FINV()
+FirstSortedValue()
+FirstValue()
+FirstWorkDate()
+Floor()
+fmod()
+Frac()
+Fractile()
+FV()
+GetExtendedProperty()
+GetFolderPath()
+GetObjectField()
+GetRegistryString()
+GMT()
+Green()
+Hash128()
+Hash160()
+Hash256()
+Hour()
+HSL()
+if() // if as a function will currently display in bold as it cant be distinguished from an IF statement
+InDay()
+InDayToTime()
+Index()
+InLunarWeek()
+InLunarWeekToDate()
+InMonth InMonths()
+InMonthsToDate()
+InMonthToDate()
+Input()
+InputAvg()
+InputSum()
+InQuarter()
+InQuarterToDate()
+Interval()
+Interval#()
+InWeek()
+InWeekToDate()
+InYear()
+InYearToDate()
+IRR()
+IsNull()
+IsNum()
+IsPartialReload()
+IsText()
+IterNo()
+KeepChar()
+Kurtosis()
+LastValue()
+LastWorkDate()
+Left()
+Len()
+LightBlue()
+LightCyan()
+LightGray()
+LightGreen()
+LightMagenta()
+LightRed()
+LINEST_B()
+LINEST_DF()
+LINEST_F()
+LINEST_M()
+LINEST_R2()
+LINEST_SEB()
+LINEST_SEM()
+LINEST_SEY()
+LINEST_SSREG()
+LINEST_SSRESID()
+LocalTime()
+log()
+log10()
+Lookup()
+Lower()
+LTrim()
+LunarWeekEnd()
+LunarWeekName()
+LunarWeekStart()
+Magenta()
+MakeDate()
+MakeTime()
+MakeWeekDate()
+MapSubString()
+Match()
+Max()
+MaxString()
+Median()
+Mid()
+Min()
+MinString()
+Minute()
+MissingCount()
+MixMatch()
+Mod()
+Mode()
+Money()
+Money#()
+Month()
+MonthEnd()
+MonthName()
+MonthsEnd()
+MonthsName()
+MonthsStart()
+MonthStart()
+MsgBox()
+NetWorkDays()
+NoOfFields()
+NoOfReports()
+NoOfRows()
+NoOfTables()
+NORMDIST()
+NORMINV()
+Now()
+nPer()
+NPV()
+Null()
+NullCount()
+Num()
+Num#()
+NumAvg()
+NumCount()
+NumericCount()
+NumMax()
+NumMin()
+NumSum()
+Odd()
+Only()
+Ord()
+OSUser()
+Peek()
+Permut()
+Pi()
+Pick()
+Pmt()
+pow()
+Previous()
+PurgeChar()
+PV()
+QlikTechBlue()
+QlikTechGray()
+QlikViewVersion()
+QuarterEnd()
+QuarterName()
+QuarterStart()
+QvdCreateTime()
+QvdFieldName()
+QvdNoOfFields()
+QvdNoOfRecords()
+QvdTableName()
+QVUser()
+Rand()
+RangeAvg()
+RangeCorrel()
+RangeCount()
+RangeFractile()
+RangeIRR()
+RangeKurtosis()
+RangeMax()
+RangeMaxString()
+RangeMin()
+RangeMinString()
+RangeMissingCount()
+RangeMode()
+RangeNPV()
+RangeNullCount()
+RangeNumericCount()
+RangeOnly()
+RangeSkew()
+RangeStdev()
+RangeSum()
+RangeTextCount()
+RangeXIRR()
+RangeXNPV()
+Rate()
+RecNo()
+Red()
+ReloadTime()
+Repeat()
+Replace()
+ReportComment()
+ReportId()
+ReportName()
+ReportNumber()
+RGB()
+Right()
+Round()
+RowNo()
+RTrim()
+Second()
+SetDateYear()
+SetDateYearMonth()
+Sign()
+sin()
+sinh()
+Skew()
+sqr()
+sqrt()
+Stdev()
+Sterr()
+STEYX()
+SubField()
+SubStringCount()
+Sum()
+SysColor()
+TableName()
+TableNumber()
+tan()
+tanh()
+TDIST()
+Text()
+TextBetween()
+TextCount()
+Time()
+Time#()
+Timestamp()
+Timestamp#()
+TimeZone()
+TINV()
+Today()
+Trim()
+True()
+TTest1_conf()
+TTest1_df()
+TTest1_dif()
+TTest1_lower()
+TTest1_sig()
+TTest1_sterr()
+TTest1_t()
+TTest1_upper()
+TTest1w_conf()
+TTest1w_df()
+TTest1w_dif()
+TTest1w_lower()
+TTest1w_sig()
+TTest1w_sterr()
+TTest1w_t()
+TTest1w_upper()
+TTest_conf()
+TTest_df()
+TTest_dif()
+TTest_lower()
+TTest_sig()
+TTest_sterr()
+TTest_t()
+TTest_upper()
+TTestw_conf()
+TTestw_df()
+TTestw_dif()
+TTestw_lower()
+TTestw_sig()
+TTestw_sterr()
+TTestw_t()
+TTestw_upper()
+Upper()
+UTC()
+Week()
+WeekDay()
+WeekEnd()
+WeekName()
+WeekStart()
+WeekYear()
+White()
+WildMatch()
+WildMatch5()
+XIRR()
+XNPV()
+Year()
+Year2Date()
+YearEnd()
+YearName()
+YearStart()
+YearToDate()
+Yellow()
+ZTest_conf()
+ZTest_dif()
+ZTest_lower()
+ZTest_sig()
+ZTest_sterr()
+ZTest_upper()
+ZTest_z()
+ZTestw_conf()
+ZTestw_dif()
+ZTestw_lower()
+ZTestw_sig()
+ZTestw_sterr()
+ZTestw_upper()
+ZTestw_z()
+
+// It should not matter if any whitespace appears between the function name and the brackets
+acos () // A single space
+addmonths () // 2 spaces
+addyears () // a tab
+
+// Functions should still be highlighted correctly when nested
+acos(addmonths(addyears()))
+subfield('This is a string',count(THIS))
+
+//*************************************************************************
+// Data Loads
+//*************************************************************************
+
+MyTable:
+LOAD * RESIDENT MyTempTable;
+
+MyTable:
+LOAD DISTINCT * RESIDENT MyTempTable GROUP BY Field1;
+
+MyTable:
+LOAD * RESIDENT MyTempTable WHERE Field1 = 'abc';
+
+MyTable:
+NOCONCATENATE
+LOAD * RESIDENT MyTempTable;
+
+// Note: in an inline load everything between the square braces will be highlighted as if it is a field. This is not the case within QlikView but is an acceptable abnormality.
+MyTable:
+LOAD * INLINE [
+a, b, c
+1, 1, 1
+2, 2, 2
+3, 3, 3
+];
+
+// Note: many keywords within the SQL statement such as SELECT and FROM will be highlighted when they are not within QlikView. This is an acceptable abnormality.
+MyTable:
+LOAD *;
+SQL SELECT * FROM table;
+
+SELECT * FROM table;
+
+// Variables used in table names should be included in parsing of table names within function lists
+MyTable_$(vMyVariable):
+LOAD *;
+SQL SELECT * FROM table;
+
+//Multiple preceeding loads
+MyTable:
+LOAD * GROUP BY This;
+LOAD * ;
+SQL SELECT * FROM table;
+
+//*************************************************************************
+// Other Loads
+//*************************************************************************
+
+//VARIABLES IN A LOAD
+MyTable:
+LOAD
+text(Field1) &amp; ' this string' AS Field1,
+Field2
+RESIDENT MyMapTable;
+
+//MAPPING LOAD
+MapMappingTable:
+MAPPING LOAD
+Field1,
+Field2
+RESIDENT MyMapTable;
+
+//INFO LOAD
+INFO LOAD
+Field1,
+Field2
+RESIDENT MyInfoTable;
+
+//BUNDLE INFO LOAD
+BUNDLE INFO LOAD
+Field1,
+Field2
+RESIDENT MyInfoTable;
+
+//*************************************************************************
+// Join and Keep Statements
+//*************************************************************************
+
+JOIN (MyTable)
+LOAD * RESIDENT MyTable2;
+
+LEFT JOIN (MyTable)
+LOAD * RESIDENT MyTable2;
+
+RIGHT JOIN (MyTable)
+LOAD * RESIDENT MyTable2;
+
+INNER JOIN (MyTable)
+LOAD * RESIDENT MyTable2;
+
+OUTER JOIN (MyTable)
+LOAD * RESIDENT MyTable2;
+
+LEFT KEEP (MyTable)
+LOAD * RESIDENT MyTable2;
+
+RIGHT KEEP (MyTable)
+LOAD * RESIDENT MyTable2;
+
+INNER KEEP (MyTable)
+LOAD * RESIDENT MyTable2;
+
+//*************************************************************************
+// Concatenate Statements
+//*************************************************************************
+
+CONCATENATE (MyTable)
+LOAD * RESIDENT MyTable2;
+
+MyTable:
+NOCONCATENATE
+LOAD * RESIDENT MyTable2;
+
+//*************************************************************************
+// Direct Query Statements
+//*************************************************************************
+
+DIRECT QUERY 
+DIMENSION Dim1, Dim2 
+MEASURE Num1, Num2, Num3 
+DETAIL Detail1, Detail2
+FROM MyTable
+WHERE NATIVE ('EMAIL MATCHES "\*.EDU"');
+
+//*************************************************************************
+// Logic statements
+//*************************************************************************
+
+SUB MySubroutine (vMyVar)
+LET a = vMyVar;
+END SUB
+
+SUB MySubroutine2 (vMyVar, vMyVar2)
+LET a = vMyVar;
+END SUB
+
+SUB My$(vMyVar)Sub (vMyVar)
+LET a = vMyVar;
+END SUB
+
+CALL MySubroutine (100);
+
+IF x=y AND a=b THEN
+//Do something
+LET a = b;
+ELSEIF x&gt;y THEN
+//Do something
+LET a = b;
+ELSE
+//Do somthing else
+LET a = b;
+END IF
+
+IF a=b THEN
+//Do this
+LET a = b;
+ENDIF
+
+SWITCH vMyVariable
+CASE 100
+// Do this
+LET a = 100;
+CASE 1000
+// Or do this
+LET a = 1000;
+DEFAULT
+// Else do this
+LET a = b;
+END SWITCH
+
+//*************************************************************************
+// Loops
+//*************************************************************************
+
+// For loop
+FOR x=1 TO 100 STEP 1
+// Do something
+EXIT FOR
+NEXT
+
+// Do While loop
+SET a = 1;
+DO WHILE a &lt; 100 // Do something LET a = a + 1; LOOP // Do Until Loop SET a = 1; DO UNTIL a &gt; 100
+// Do something
+LET a = a + 1;
+LOOP UNTIL a = 5
+
+//*************************************************************************
+// Other Statements
+//*************************************************************************
+
+// Drop Statements
+DROP TABLE MyTable;
+DROP TABLES MyTable, MyTable1, MyTable2;
+DROP FIELD Field1;
+DROP FIELDS Field1, Field2, Field3;
+
+// Rename Statements
+RENAME TABLE MyTable TO MyTableX;
+RENAME FIELD Field1 TO FieldX;
+
+// Store Statements
+STORE MyTable INTO qvds/MyTable.qvw (qvd);
+STORE MyTable_$(vMyVariable) INTO qvds/MyTable-$(vMyVariable).qvw (qvd);
+
+// Qualify Statements
+QUALIFY *;
+UNQUALIFY Field1, Field2;
+UNQUALIFY "Join_*";
+
+// Tag Statements
+TAG FIELD a WITH 'dimension';
+TAG FIELDS a, b, c USING TagMap;
+
+// Binary Load Statements - This should really be the first statement of the entire script
+BINARY file/MyApplication.qvw;
+
+// Exit Script Statements
+EXIT SCRIPT;
+EXIT SCRIPT ;
+
+//*************************************************************************
+// Incorrect Highlighting
+//*************************************************************************
+
+// The following things should not be highlighted when they appear alone and not in the correct order with other key words
+// Note: UltraEdit currently does not support keyword combinations and so they will still be highlighted
+EXIT
+BUNDLE
+INFO
+BUNDLE INFO
+DROP
+GROUP
+IMAGE_SIZE
+INNER
+OUTER
+BY
+MAPPING
+RENAME
+END
+WHILE
+UNTIL
+TAG
+FIELD
+KEEP
+
+// Many keywords can cause problems and display in places they aren't meant to like this
+Some text showing that keywords can appear in the middle of a comment like this. If the words do show then they will be formatted as a keyword or function and shouldnt be.
+
+'Thankfully keywords that appear in quoted text as a string will not be highlighted'
+"Double quoted text should be fine also and not be highlighted"
