@@ -5,11 +5,11 @@
 [![GitHub issues](https://img.shields.io/github/issues/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/issues)
 [![GitHub license](https://img.shields.io/github/license/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/blob/master/LICENSE)
 
-# QlikView Language Definition for Notepad++
+# Qlik Language Definition for Notepad++
 
-The QlikView Custom Language Definition for Notepad++ gives basic syntax highlighting, auto-completion and code tool-tips when working with QlikView script files in Notepad++.
+The Qlik Custom Language Definition for Notepad++ gives basic syntax highlighting, auto-completion and code tool-tips when working with QlikView and Qlik Sense script files in Notepad++.
 
-The syntax highlighting that is provided is limited to the capabilities of Notepad++ Custom Language Definitions and Auto-Completion files, and is an approximation of what you would get in QlikView's Edit Script dialog. It currently supports the following features:
+The syntax highlighting that is provided is limited to the capabilities of Notepad++ Custom Language Definitions and Auto-Completion files, and is an approximation of what you would get in Qlik's Edit Script dialog. It currently supports the following features:
 
 * Highlighting of all current (v11.20) functions 
 * Highlighting of all current (v11.20) keywords and statements 
@@ -53,11 +53,11 @@ If you already have a previous version of the QlikView language definition insta
 
 
 ## How To Use
-If you open a .qvs file, Notepad++ will automatically identify it as a QlikView script file and apply the language definition for you. If you are creating a new file or using a different file extension then you'll need to change the language using the menu Language -> QlikView.
+If you open a .qvs file, Notepad++ will automatically identify it as a QlikView script file and apply the language definition for you. If you are creating a new file or using a different file extension then you'll need to change the language using the menu Language -> Qlik.
 
 When typing, Notepad++ will suggest keywords and function to complete what you started to type. When you type a function name followed by the opening bracket (, where possible Notepad++ will display a tool tip showing a description of the function and the correct syntax.
 
-To view the function list panel, select View -> Function List from the menu bar. The function list will identify many statements within the QlikView script file.
+To view the function list panel, select View -> Function List from the menu bar. The function list will identify many statements within the Qlik script file.
 
 To enable auto-completion, select Settings -> Preferences... from the menu bar. Select Auto-Completion from the list on the left and then ensure the options are set as follows:
 
