@@ -1,4 +1,5 @@
 [![GitHub version](https://img.shields.io/github/release/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest)
 [![GitHub download](https://img.shields.io/github/downloads/MattFryer/QlikView-Notepad-plus-plus/total.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/releases/latest)
 [![GitHub stars](https://img.shields.io/github/stars/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/MattFryer/QlikView-Notepad-plus-plus.svg)](https://github.com/MattFryer/QlikView-Notepad-plus-plus/issues)
