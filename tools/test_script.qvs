@@ -487,6 +487,10 @@ SQL SELECT * FROM table;
 // Other Loads
 //*************************************************************************
 
+//UN-NAMED LOAD - This won't appear in the function list
+LOAD *
+FROM SQL SELECT * FROM MyTable;
+
 //VARIABLES IN A LOAD
 MyTable:
 LOAD
@@ -642,6 +646,8 @@ RENAME FIELD Field1 TO FieldX;
 
 // Store Statements
 STORE MyTable INTO qvds/MyTable.qvw (qvd);
+STORE MyTable2 
+INTO qvds/MyTable2.qvw (qvd);
 STORE MyTable_$(vMyVariable) INTO qvds/MyTable-$(vMyVariable).qvw (qvd);
 
 // Qualify Statements
