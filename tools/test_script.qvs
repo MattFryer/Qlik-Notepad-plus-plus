@@ -169,7 +169,8 @@ InDayToTime()
 Index()
 InLunarWeek()
 InLunarWeekToDate()
-InMonth InMonths()
+InMonth() 
+InMonths()
 InMonthsToDate()
 InMonthToDate()
 Input()
@@ -487,14 +488,10 @@ SQL SELECT * FROM table;
 // Other Loads
 //*************************************************************************
 
-//UN-NAMED LOAD - This won't appear in the function list
-LOAD *
-FROM SQL SELECT * FROM MyTable;
-
 //VARIABLES IN A LOAD
 MyTable:
 LOAD
-text(Field1) &amp; ' this string' AS Field1,
+text(Field1) & ' this string' AS Field1,
 Field2
 RESIDENT MyMapTable;
 
@@ -588,7 +585,7 @@ CALL MySubroutine (100);
 IF x=y AND a=b THEN
 //Do something
 LET a = b;
-ELSEIF x&gt;y THEN
+ELSEIF x>y THEN
 //Do something
 LET a = b;
 ELSE
@@ -625,10 +622,15 @@ NEXT
 
 // Do While loop
 SET a = 1;
-DO WHILE a &lt; 100 // Do something LET a = a + 1; LOOP // Do Until Loop SET a = 1; DO UNTIL a &gt; 100
+DO WHILE a = 100 // Do something LET a = a + 1; LOOP // Do Until Loop SET a = 1; DO UNTIL a &gt; 100
 // Do something
 LET a = a + 1;
 LOOP UNTIL a = 5
+
+DO UNTIL a > b
+// Do something
+EXIT DO;
+LOOP WHILE c = 100;
 
 //*************************************************************************
 // Other Statements
@@ -639,6 +641,7 @@ DROP TABLE MyTable;
 DROP TABLES MyTable, MyTable1, MyTable2;
 DROP FIELD Field1;
 DROP FIELDS Field1, Field2, Field3;
+DROP FIELD Field1 FROM MyTable1;
 
 // Rename Statements
 RENAME TABLE MyTable TO MyTableX;
@@ -646,8 +649,6 @@ RENAME FIELD Field1 TO FieldX;
 
 // Store Statements
 STORE MyTable INTO qvds/MyTable.qvw (qvd);
-STORE MyTable2 
-INTO qvds/MyTable2.qvw (qvd);
 STORE MyTable_$(vMyVariable) INTO qvds/MyTable-$(vMyVariable).qvw (qvd);
 
 // Qualify Statements
