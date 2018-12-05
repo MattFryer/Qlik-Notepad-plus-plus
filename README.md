@@ -1,10 +1,10 @@
-[![GitHub version](https://img.shields.io/github/release/MattFryer/Qlik-Notepad-plus-plus.svg)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/MattFryer/Qlik-Notepad-plus-plus.svg)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/releases/latest)
-[![GitHub download](https://img.shields.io/github/downloads/MattFryer/Qlik-Notepad-plus-plus/total.svg)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/MattFryer/Qlik-Notepad-plus-plus.svg)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues-raw/MattFryer/Qlik-Notepad-plus-plus.svg)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/issues)
+[![GitHub version](https://img.shields.io/github/release/MattFryer/Qlik-Notepad-plus-plus.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/MattFryer/Qlik-Notepad-plus-plus.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/releases/latest)
+[![GitHub download](https://img.shields.io/github/downloads/MattFryer/Qlik-Notepad-plus-plus/total.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/MattFryer/Qlik-Notepad-plus-plus.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues-raw/MattFryer/Qlik-Notepad-plus-plus.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/issues)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/MattFryer/Qlik-Notepad-plus-plus.svg)](http://isitmaintained.com/project/MattFryer/Qlik-Notepad-plus-plus "Average time to resolve an issue")
-[![GitHub license](https://img.shields.io/github/license/MattFryer/Qlik-Notepad-plus-plus.svg)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/MattFryer/Qlik-Notepad-plus-plus.svg?logo=gnu&logoColor=ffffff)](https://github.com/MattFryer/Qlik-Notepad-plus-plus/blob/master/LICENSE)
 
 # Qlik Language Definition for Notepad++
 
